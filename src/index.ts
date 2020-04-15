@@ -8,7 +8,9 @@ import {} from './lib/fileHandler';
 clear();
 
 console.log(
-	chalk.blue(figlet.textSync('Node CLI', { horizontalLayout: 'full' }))
+	chalk.blue(
+		figlet.textSync('Node CLI', { font: '3-D', horizontalLayout: 'full' })
+	)
 );
 
 const run = async () => {
