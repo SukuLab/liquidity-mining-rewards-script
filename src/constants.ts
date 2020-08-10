@@ -13,7 +13,17 @@ export const BLOCK_GAP = 3000;
 /**
  * These blocks represent the start and end of each period 
  */
-export const CAMPAIGN_BLOCKS = [];
+export const CAMPAIGN_BLOCKS = [
+	10620142, // 2020-08-08T12:00:12 ET (Start of campaign)
+	10632076, // 2020-08-10T12:00:00 ET (End of first rewards period)  // TODO
+	// 2020-08-24T12:00:00 ET (End of second rewards period)
+	// 2020-08-31T12:00:00 ET (End of third rewards period)
+	// 2020-09-07T12:00:00 ET (End of fourth rewards period)
+	// 2020-09-14T12:00:00 ET (End of fifth rewards period)
+	// 2020-09-21T12:00:00 ET (End of sixth rewards period)
+	// 2020-09-28T12:00:00 ET (End of seventh rewards period)
+	// 2020-10-05T12:00:00 ET (End of Campaign)
+];
 
 // The distribution of awards per period
 const DECIMALS_OF_REWARDS = new BigNumber(18);

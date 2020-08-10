@@ -22,9 +22,8 @@ and time multipliers.
 
 ## Script Constraints 
 * A minimum amount of liquidity is enforced. Currently the script ensures at least 
-   2 pool tokens are held to be eligible. (~0.25 ETH in value)  
-  
-Calculate rewards distributions based off of ERC-20 holdings over various block periods.  
+   2 pool tokens are held to be eligible. (~0.25 ETH in value)
+
 
 ## Get Started 
 `npm install`   
