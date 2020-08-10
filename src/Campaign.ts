@@ -73,8 +73,9 @@ export default class Campaign {
 				getBigNums(BIG_NUMBER_REWARDS)
 			);
 
+			// TODO: Update date dir
 			await writeJSONToFile(
-				`results/full-details-${moment().format('YYYY-MM-DD')}.json`,
+				`results/2020-08-10/full-details-${moment().format('YYYY-MM-DD')}.json`,
 				finalPeriodStatus
 			);
 
@@ -82,8 +83,9 @@ export default class Campaign {
 				finalPeriodStatus.periodStatus
 			);
 
+			// TODO: Update date dir
 			await writeMarkdownTableToFile(
-				`results/leaderboard-${moment().format('YYYY - MM - DD')}.md`,
+				`results/2020-08-10/leaderboard-${moment().format('YYYY-MM-DD')}.md`,
 				rewardsTable
 			);
 
@@ -134,11 +136,10 @@ export default class Campaign {
 				});
 
 				console.table(transferDiff.minBalanceDiff);
-				// TODO: Put ensure this doesn't override files
-				await writeJSONToFile(
-					`results/campaign-period-${period}.json`,
-					endOfPeriodsBalances[period - 1].rewardBalances
-				);
+				// await writeJSONToFile(
+				// 	`results/campaign-period-${period}.json`,
+				// 	endOfPeriodsBalances[period - 1].rewardBalances
+				// );
 			}
 
 			return endOfPeriodsBalances;
@@ -401,13 +402,21 @@ export default class Campaign {
 	};
 
 	private createRewardsTable = (periodStatus: PeriodStatus): any[][] => {
-		let tableHeader = [ 'Account', 'SUKU Rewards', 'USD Rewards' ];
+		let tableHeader = [
+			'Account',
+			'SUKU Rewards',
+			`USD Rewards @$${CURRENT_PRICE}`,
+		];
 		let table: [string, string, string][] = [];
 		const accountRewards = periodStatus.rewards;
 		for (const account in accountRewards) {
 			if (Object.prototype.hasOwnProperty.call(accountRewards, account)) {
 				const accountDetails = accountRewards[account];
 				const accountRewardsDecimal = Number(accountDetails.rewards.decimal);
+				// Remove zero balance clutter
+				if (accountRewardsDecimal === 0) {
+					continue;
+				}
 				table.push([
 					account,
 					accountRewardsDecimal.toFixed(2),
