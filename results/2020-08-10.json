@@ -1,0 +1,3680 @@
+{
+    "periodStatus": {
+        "date": "2020-08-10T18:32:30.045Z",
+        "startingBlock": 10620142,
+        "endingBlock": 10633132,
+        "totalRewards": 400000,
+        "rewards": {
+            "0x9b4823a4C0e28b05c2EfA898c20C36404c089789": {
+                "endingBalance": {
+                    "BigNumber": "8.0461588707694924927892e+22",
+                    "decimal": "80461.588707694924927892"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "8.0461588707694924927892e+22",
+                        "decimal": "80461.588707694924927892"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x3E11d657331c286624826ac797a974777be0e47F": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x11519BA13c6b5494f971BAFf171A1045261beD6C": {
+                "endingBalance": {
+                    "BigNumber": "3621138434942712714",
+                    "decimal": "3.621138434942712714"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "3621138434942712714",
+                        "decimal": "3.621138434942712714"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "3621138434942712714",
+                    "decimal": "3.621138434942712714"
+                },
+                "rewards": {
+                    "BigNumber": "92802085541076421017.78615774805233225665",
+                    "decimal": "92.80208554107642101779"
+                }
+            },
+            "0x98C149E666cb3052c57C5D9818b41c82DEDDF350": {
+                "endingBalance": {
+                    "BigNumber": "41115807790538061955",
+                    "decimal": "41.115807790538061955"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "41115807790538061955",
+                        "decimal": "41.115807790538061955"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "41115807790538061955",
+                    "decimal": "41.115807790538061955"
+                },
+                "rewards": {
+                    "BigNumber": "1.05371080952013749243723466884727005728488e+21",
+                    "decimal": "1053.71080952013749243723"
+                }
+            },
+            "0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x69fAa59e22242667bdfa03c6AABEe7cB6a57666c": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x775EE938186FddC13bD7C89D24820E1b0758F91D": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xF993f7945D410E20e2726F4FA02CC557D5e9Fafe": {
+                "endingBalance": {
+                    "BigNumber": "420890133536950425710",
+                    "decimal": "420.89013353695042571"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "420890133536950425710",
+                        "decimal": "420.89013353695042571"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "420890133536950425710",
+                    "decimal": "420.89013353695042571"
+                },
+                "rewards": {
+                    "BigNumber": "1.078652000679700100997959582235115113986626e+22",
+                    "decimal": "10786.5200067970010099796"
+                }
+            },
+            "0x85c5489F74FE5000fF0701535D9Ec8eF49dfe704": {
+                "endingBalance": {
+                    "BigNumber": "42775424029346398195",
+                    "decimal": "42.775424029346398195"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "42775424029346398195",
+                        "decimal": "42.775424029346398195"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "42775424029346398195",
+                    "decimal": "42.775424029346398195"
+                },
+                "rewards": {
+                    "BigNumber": "1.09624324812371363580139605061895344629421e+21",
+                    "decimal": "1096.2432481237136358014"
+                }
+            },
+            "0xEce772FE6bb5E9869c12EcfA94F5A6b463Ee6cD7": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x052aA017270434C91cA09c082018BD3B8f26e613": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x2d24e67A7F502d24631e5734E79cD0A63Cd7533c": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x91215714613EC4554EAdc9563669751cbCF265d0": {
+                "endingBalance": {
+                    "BigNumber": "124114909230926101940",
+                    "decimal": "124.11490923092610194"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "124114909230926101940",
+                        "decimal": "124.11490923092610194"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "124114909230926101940",
+                    "decimal": "124.11490923092610194"
+                },
+                "rewards": {
+                    "BigNumber": "3.18080146073000357567425822295674780966394e+21",
+                    "decimal": "3180.80146073000357567426"
+                }
+            },
+            "0xFE51829502D354c7280cE9EEaCeD3Ff206b223B5": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xcfB464585241eab3Ecb392011648a8e829b951eD": {
+                "endingBalance": {
+                    "BigNumber": "53253225881739609246",
+                    "decimal": "53.253225881739609246"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "53253225881739609246",
+                        "decimal": "53.253225881739609246"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "53253225881739609246",
+                    "decimal": "53.253225881739609246"
+                },
+                "rewards": {
+                    "BigNumber": "1.36476705113695766045446553869565562949433e+21",
+                    "decimal": "1364.76705113695766045447"
+                }
+            },
+            "0x6B2eE2D274B8FE2C1bb59370856c46F8e5AE6e6f": {
+                "endingBalance": {
+                    "BigNumber": "2620651640180449919",
+                    "decimal": "2.620651640180449919"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "2620651640180449919",
+                        "decimal": "2.620651640180449919"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "2620651640180449919",
+                    "decimal": "2.620651640180449919"
+                },
+                "rewards": {
+                    "BigNumber": "67161734370212182293.89025001054832300664",
+                    "decimal": "67.16173437021218229389"
+                }
+            },
+            "0x992A4DC6bec613742034F6d7b7942275a45f5D00": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x347EdDE1B22aD77d66f34767069CDFb744a505a7": {
+                "endingBalance": {
+                    "BigNumber": "8596470271572629854",
+                    "decimal": "8.596470271572629854"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "8596470271572629854",
+                        "decimal": "8.596470271572629854"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "8596470271572629854",
+                    "decimal": "8.596470271572629854"
+                },
+                "rewards": {
+                    "BigNumber": "220309271193721862649.55282634389625367799",
+                    "decimal": "220.30927119372186264955"
+                }
+            },
+            "0xE0e8C1D735698060477e79a8e4C20276Fc2Ec7A7": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xDC431CA1db8C0D932D27a489616eff5088B914Cb": {
+                "endingBalance": {
+                    "BigNumber": "9833091090650002496",
+                    "decimal": "9.833091090650002496"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "9833091090650002496",
+                        "decimal": "9.833091090650002496"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "9833091090650002496",
+                    "decimal": "9.833091090650002496"
+                },
+                "rewards": {
+                    "BigNumber": "252001235777702168578.13601926549146348216",
+                    "decimal": "252.00123577770216857814"
+                }
+            },
+            "0x4740988434Aab9d22d5E096f0551605bE9F9637D": {
+                "endingBalance": {
+                    "BigNumber": "14915580675882842107",
+                    "decimal": "14.915580675882842107"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "14915580675882842107",
+                        "decimal": "14.915580675882842107"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "14915580675882842107",
+                    "decimal": "14.915580675882842107"
+                },
+                "rewards": {
+                    "BigNumber": "382254646887037419779.05904354863398480273",
+                    "decimal": "382.25464688703741977906"
+                }
+            },
+            "0x0BEc2a7885d600DDB7a06e58ea1ff475dfc7cc22": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x3CFf903E1d95d910208eF1e8da23fbc34d64f55d": {
+                "endingBalance": {
+                    "BigNumber": "14223349565451936361",
+                    "decimal": "14.223349565451936361"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "14223349565451936361",
+                        "decimal": "14.223349565451936361"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x617e1eEdDC9953beabDF21e03b8EcC1CFDC39149": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x551420fD2a830C7692367D818770B6eF86f12646": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x6Bf1005A7D99F3d5e1ab2689D7035DE24BF4539f": {
+                "endingBalance": {
+                    "BigNumber": "1.809115961020817692472e+21",
+                    "decimal": "1809.115961020817692472"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "1.809115961020817692472e+21",
+                        "decimal": "1809.115961020817692472"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "1.809115961020817692472e+21",
+                    "decimal": "1809.115961020817692472"
+                },
+                "rewards": {
+                    "BigNumber": "4.636379889492864855605207784962465894726481e+22",
+                    "decimal": "46363.79889492864855605208"
+                }
+            },
+            "0x99A9d2c4dBCA1AB05631F4BFDF75AbC76Ca39983": {
+                "endingBalance": {
+                    "BigNumber": "5119068176829012576",
+                    "decimal": "5.119068176829012576"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "5119068176829012576",
+                        "decimal": "5.119068176829012576"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "5119068176829012576",
+                    "decimal": "5.119068176829012576"
+                },
+                "rewards": {
+                    "BigNumber": "131190842706405316132.41392774297069231998",
+                    "decimal": "131.19084270640531613241"
+                }
+            },
+            "0xFBA22623A465d0Cf942e86a17B871d153Af6461C": {
+                "endingBalance": {
+                    "BigNumber": "205722383808326763295",
+                    "decimal": "205.722383808326763295"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "205722383808326763295",
+                        "decimal": "205.722383808326763295"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "205722383808326763295",
+                    "decimal": "205.722383808326763295"
+                },
+                "rewards": {
+                    "BigNumber": "5.27222767173675500860054071055769110769276e+21",
+                    "decimal": "5272.22767173675500860054"
+                }
+            },
+            "0x4d4EB52056F36C1efF1753B4A23D9CE0aDaB17ce": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xF26b01dcAC5498800Af6d44D648Cbf07D347BAe2": {
+                "endingBalance": {
+                    "BigNumber": "18957014695335190559",
+                    "decimal": "18.957014695335190559"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "18957014695335190559",
+                        "decimal": "18.957014695335190559"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "18957014695335190559",
+                    "decimal": "18.957014695335190559"
+                },
+                "rewards": {
+                    "BigNumber": "485828015406367884619.81439686315598425787",
+                    "decimal": "485.82801540636788461981"
+                }
+            },
+            "0xa53eFF9F0Ba54314169791E9273ebc6c526F4890": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x7Ca930CA2d705e491332140Aa07357748AA0Bafd": {
+                "endingBalance": {
+                    "BigNumber": "60733270966423509834",
+                    "decimal": "60.733270966423509834"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "60733270966423509834",
+                        "decimal": "60.733270966423509834"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "60733270966423509834",
+                    "decimal": "60.733270966423509834"
+                },
+                "rewards": {
+                    "BigNumber": "1.55646471646273121181846467862961178023354e+21",
+                    "decimal": "1556.46471646273121181846"
+                }
+            },
+            "0x4530B100BF6400268E22fE64d7548fFaafA8dC39": {
+                "endingBalance": {
+                    "BigNumber": "382258410283972410779",
+                    "decimal": "382.258410283972410779"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "382258410283972410779",
+                        "decimal": "382.258410283972410779"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "382258410283972410779",
+                    "decimal": "382.258410283972410779"
+                },
+                "rewards": {
+                    "BigNumber": "9.7964710069225253409932799150014585755538e+21",
+                    "decimal": "9796.47100692252534099328"
+                }
+            },
+            "0xAe45cefA685CA1AA9C3028869190a3bb50b8Ae3C": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xe310EcB5ad4BDF59d7E2BfA28871a67D260eCEf0": {
+                "endingBalance": {
+                    "BigNumber": "189751631078122970479",
+                    "decimal": "189.751631078122970479"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "189751631078122970479",
+                        "decimal": "189.751631078122970479"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "189751631078122970479",
+                    "decimal": "189.751631078122970479"
+                },
+                "rewards": {
+                    "BigNumber": "4.8629312066467094632675219910372781099023e+21",
+                    "decimal": "4862.93120664670946326752"
+                }
+            },
+            "0xA310eCFa5dc579D3E397cCc10d28ED24C957BE8d": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x3EC0ea164b51a91F7988970eEC800FE3eF31aD2c": {
+                "endingBalance": {
+                    "BigNumber": "94759215346133031152",
+                    "decimal": "94.759215346133031152"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "94759215346133031152",
+                        "decimal": "94.759215346133031152"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "94759215346133031152",
+                    "decimal": "94.759215346133031152"
+                },
+                "rewards": {
+                    "BigNumber": "2.42847738807760879069795240314320604215557e+21",
+                    "decimal": "2428.47738807760879069795"
+                }
+            },
+            "0xa4317aB9d7DF7453d8E0853415e04f7e3a78f78F": {
+                "endingBalance": {
+                    "BigNumber": "1.536562709768874109893e+21",
+                    "decimal": "1536.562709768874109893"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "1.536562709768874109893e+21",
+                        "decimal": "1536.562709768874109893"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "1.536562709768874109893e+21",
+                    "decimal": "1536.562709768874109893"
+                },
+                "rewards": {
+                    "BigNumber": "3.937883806241589985778947988142563943368208e+22",
+                    "decimal": "39378.83806241589985778948"
+                }
+            },
+            "0x7D0E096c7cC8294c6ff344313565d1363F58B136": {
+                "endingBalance": {
+                    "BigNumber": "13991572897885012230",
+                    "decimal": "13.99157289788501223"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "13991572897885012230",
+                        "decimal": "13.99157289788501223"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "13991572897885012230",
+                    "decimal": "13.99157289788501223"
+                },
+                "rewards": {
+                    "BigNumber": "358574290448046115950.47209114512332091827",
+                    "decimal": "358.57429044804611595047"
+                }
+            },
+            "0x14a0947b8FbebE53Ad5EF8c5f80F14aDbc559D53": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x15943509d0C216a9aa36fbFe0095948065433df7": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xC9DCed6e27800B852c5c01Bc3414378564F483d1": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xF150CE89087cf17cB7166E5dA2aCf7Bd6E7383e8": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xa3B99E297BE342d4bCF9E80099BB0563F4383EDA": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x9CD448377D6C86E47f0e8a8521086B6cF30b580c": {
+                "endingBalance": {
+                    "BigNumber": "45542437337831731196",
+                    "decimal": "45.542437337831731196"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "45542437337831731196",
+                        "decimal": "45.542437337831731196"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "45542437337831731196",
+                    "decimal": "45.542437337831731196"
+                },
+                "rewards": {
+                    "BigNumber": "1.16715592112993499194666764501430877772509e+21",
+                    "decimal": "1167.15592112993499194667"
+                }
+            },
+            "0x5D4dac7968760a65CDa5D9edF33cb55F4d7A5727": {
+                "endingBalance": {
+                    "BigNumber": "15134590323744421427",
+                    "decimal": "15.134590323744421427"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "15134590323744421427",
+                        "decimal": "15.134590323744421427"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "15134590323744421427",
+                    "decimal": "15.134590323744421427"
+                },
+                "rewards": {
+                    "BigNumber": "387867398909729103493.31676675362528649264",
+                    "decimal": "387.86739890972910349332"
+                }
+            },
+            "0x51738CfB64B14E3F04C9032ea5AfC0f970328b7E": {
+                "endingBalance": {
+                    "BigNumber": "321169774597557196",
+                    "decimal": "0.321169774597557196"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "321169774597557196",
+                        "decimal": "0.321169774597557196"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x99A28F70458d4E25b00D4974dC6729d329c16C87": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xbb681E2EFDa1FE3Cbf8222579507f296e9493f0C": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xBAaeBF1851F80e1e7CAdEBeCe2026A897B7A3508": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x43c5A16EBEeb3e8B8d8eb9dfF67b4F816e1e4eCf": {
+                "endingBalance": {
+                    "BigNumber": "538061019659881956",
+                    "decimal": "0.538061019659881956"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "538061019659881956",
+                        "decimal": "0.538061019659881956"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xC1f0432F11C175e29681ff754B061E59394fbC49": {
+                "endingBalance": {
+                    "BigNumber": "188933973328218858321",
+                    "decimal": "188.933973328218858321"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "188933973328218858321",
+                        "decimal": "188.933973328218858321"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "188933973328218858321",
+                    "decimal": "188.933973328218858321"
+                },
+                "rewards": {
+                    "BigNumber": "4.84197637550363389270414539466934170572748e+21",
+                    "decimal": "4841.97637550363389270415"
+                }
+            },
+            "0xB24763b5451f8E7e218738a5d85471b6394e505e": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x5c5b40855fc364b797c1F539F7Eb39cDC94a8a91": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x11111254369792b2Ca5d084aB5eEA397cA8fa48B": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x6Ad3C0b8D8509e94F597e86465c4e79738dd6349": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xD2Ce2670A6428c9Ba41c2878a498A2a8c0c1748c": {
+                "endingBalance": {
+                    "BigNumber": "35497895075229397255",
+                    "decimal": "35.497895075229397255"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "35497895075229397255",
+                        "decimal": "35.497895075229397255"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "35497895075229397255",
+                    "decimal": "35.497895075229397255"
+                },
+                "rewards": {
+                    "BigNumber": "909735641010286375692.8545764919601686258",
+                    "decimal": "909.73564101028637569285"
+                }
+            },
+            "0x2FEC5468F92b1BB8Aa9291990047505adf489636": {
+                "endingBalance": {
+                    "BigNumber": "574932321116478530457",
+                    "decimal": "574.932321116478530457"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "574932321116478530457",
+                        "decimal": "574.932321116478530457"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "574932321116478530457",
+                    "decimal": "574.932321116478530457"
+                },
+                "rewards": {
+                    "BigNumber": "1.473429403574435447887872539834603893815512e+22",
+                    "decimal": "14734.29403574435447887873"
+                }
+            },
+            "0xF4228B53433997726D6f98EBAEbfd1F83e08aE59": {
+                "endingBalance": {
+                    "BigNumber": "68356817447263316776",
+                    "decimal": "68.356817447263316776"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "68356817447263316776",
+                        "decimal": "68.356817447263316776"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "68356817447263316776",
+                    "decimal": "68.356817447263316776"
+                },
+                "rewards": {
+                    "BigNumber": "1.75184001772553985152499778843663293144487e+21",
+                    "decimal": "1751.840017725539851525"
+                }
+            },
+            "0x8eF586F7CC327D3E0E29Cf6fD7D01aF3569390B0": {
+                "endingBalance": {
+                    "BigNumber": "8511416794558893930",
+                    "decimal": "8.51141679455889393"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "8511416794558893930",
+                        "decimal": "8.51141679455889393"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "8511416794558893930",
+                    "decimal": "8.51141679455889393"
+                },
+                "rewards": {
+                    "BigNumber": "218129531260769100596.62761089008537828632",
+                    "decimal": "218.12953126076910059663"
+                }
+            },
+            "0x0AaBeb51d0d9f843f1Bd75cA866F7084A8dA8854": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x736011B7d04d8a014EFdAe6a653E3405f3CDC720": {
+                "endingBalance": {
+                    "BigNumber": "252956388184082217164",
+                    "decimal": "252.956388184082217164"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "252956388184082217164",
+                        "decimal": "252.956388184082217164"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "252956388184082217164",
+                    "decimal": "252.956388184082217164"
+                },
+                "rewards": {
+                    "BigNumber": "6.48273486257708041548696778814769012073439e+21",
+                    "decimal": "6482.73486257708041548697"
+                }
+            },
+            "0x2A3b4986cb64Bd5e4C6484282FB896fbe60B4e28": {
+                "endingBalance": {
+                    "BigNumber": "114297932614512834520",
+                    "decimal": "114.29793261451283452"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "68342429593853424486",
+                        "decimal": "68.342429593853424486"
+                    },
+                    {
+                        "BigNumber": "45955503020659410034",
+                        "decimal": "45.955503020659410034"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "45955503020659410034",
+                    "decimal": "45.955503020659410034"
+                },
+                "rewards": {
+                    "BigNumber": "1.17774191708688432524781947102614454283823e+21",
+                    "decimal": "1177.74191708688432524782"
+                }
+            },
+            "0x7bD120e7678F5DF145f7B3c570a5FAB50D69b35f": {
+                "endingBalance": {
+                    "BigNumber": "7463977935300954414",
+                    "decimal": "7.463977935300954414"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "7463977935300954414",
+                        "decimal": "7.463977935300954414"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "7463977935300954414",
+                    "decimal": "7.463977935300954414"
+                },
+                "rewards": {
+                    "BigNumber": "191285898419253443942.97628423757382917001",
+                    "decimal": "191.28589841925344394298"
+                }
+            },
+            "0x2B0e1D464d4eA1BF5D6fb73aB06E7c1E4f34B146": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xF7B9BA7eB8E7542DD71825f695cE01f5F1D7b7df": {
+                "endingBalance": {
+                    "BigNumber": "2991521529323206666",
+                    "decimal": "2.991521529323206666"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "2991521529323206666",
+                        "decimal": "2.991521529323206666"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "2991521529323206666",
+                    "decimal": "2.991521529323206666"
+                },
+                "rewards": {
+                    "BigNumber": "76666341773430704706.62681828444644291691",
+                    "decimal": "76.66634177343070470663"
+                }
+            },
+            "0x3837E2c3Ba88D3706FAb9337B4337a8D0BaEb06c": {
+                "endingBalance": {
+                    "BigNumber": "66769116942791175162",
+                    "decimal": "66.769116942791175162"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "66769116942791175162",
+                        "decimal": "66.769116942791175162"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "66769116942791175162",
+                    "decimal": "66.769116942791175162"
+                },
+                "rewards": {
+                    "BigNumber": "1.71115062661918606817734162352083166953661e+21",
+                    "decimal": "1711.15062661918606817734"
+                }
+            },
+            "0x54f3fBc175049243F3056de5ADDa5605048F9de6": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xbB587dfBA6FdfF7784bED72A096d80f72dD1c30a": {
+                "endingBalance": {
+                    "BigNumber": "14761002646297177038",
+                    "decimal": "14.761002646297177038"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "14761002646297177038",
+                        "decimal": "14.761002646297177038"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "14761002646297177038",
+                    "decimal": "14.761002646297177038"
+                },
+                "rewards": {
+                    "BigNumber": "378293140365785940618.71156536048963835325",
+                    "decimal": "378.29314036578594061871"
+                }
+            },
+            "0x5a075fDeF83cFDAa2082692060fEAd2FC5Ba7480": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x765BA2D1E702C6E02C47D56CBe1B855dD79C8C14": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x81bc7b618245EaA600F14a83B96d43230D2F51C4": {
+                "endingBalance": {
+                    "BigNumber": "99763924968285139466",
+                    "decimal": "99.763924968285139466"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "99763924968285139466",
+                        "decimal": "99.763924968285139466"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "99763924968285139466",
+                    "decimal": "99.763924968285139466"
+                },
+                "rewards": {
+                    "BigNumber": "2.55673746396464288607412007922925514420154e+21",
+                    "decimal": "2556.73746396464288607412"
+                }
+            },
+            "0x058cFe683a1688E283bC88c6065c583F78cD90Fb": {
+                "endingBalance": {
+                    "BigNumber": "33140020946519989987",
+                    "decimal": "33.140020946519989987"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "33140020946519989987",
+                        "decimal": "33.140020946519989987"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "33140020946519989987",
+                    "decimal": "33.140020946519989987"
+                },
+                "rewards": {
+                    "BigNumber": "849308336029044153546.28801402926584007381",
+                    "decimal": "849.30833602904415354629"
+                }
+            },
+            "0xF4d63BAE0aC9C6fC57ECfB25A1E0077dBa6aa091": {
+                "endingBalance": {
+                    "BigNumber": "22545279483794685905",
+                    "decimal": "22.545279483794685905"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "22545279483794685905",
+                        "decimal": "22.545279483794685905"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "22545279483794685905",
+                    "decimal": "22.545279483794685905"
+                },
+                "rewards": {
+                    "BigNumber": "577787619223038509001.70053165157165176033",
+                    "decimal": "577.7876192230385090017"
+                }
+            },
+            "0x343E3a490c9251dC0eaA81Da146ba6ABe6C78b2d": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x623494D03351c08Ae7FE7a4Dc2E3E2f5ebfb7B38": {
+                "endingBalance": {
+                    "BigNumber": "15166395817199584139",
+                    "decimal": "15.166395817199584139"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "15166395817199584139",
+                        "decimal": "15.166395817199584139"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "15166395817199584139",
+                    "decimal": "15.166395817199584139"
+                },
+                "rewards": {
+                    "BigNumber": "388682506141151160832.1342277024606095479",
+                    "decimal": "388.68250614115116083213"
+                }
+            },
+            "0x303d0e1eC982DF5D681F7C5C0D323619FdFB8Cf7": {
+                "endingBalance": {
+                    "BigNumber": "15824232786797755887",
+                    "decimal": "15.824232786797755887"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "15824232786797755887",
+                        "decimal": "15.824232786797755887"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "15824232786797755887",
+                    "decimal": "15.824232786797755887"
+                },
+                "rewards": {
+                    "BigNumber": "405541470199424682159.55886827614775498382",
+                    "decimal": "405.54147019942468215956"
+                }
+            },
+            "0xA4f25102E7B022ad4e04de84A7F91a70C8D78F02": {
+                "endingBalance": {
+                    "BigNumber": "326807221276786504557",
+                    "decimal": "326.807221276786504557"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "326807221276786504557",
+                        "decimal": "326.807221276786504557"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "326807221276786504557",
+                    "decimal": "326.807221276786504557"
+                },
+                "rewards": {
+                    "BigNumber": "8.37537483011185510426716333422420858187497e+21",
+                    "decimal": "8375.37483011185510426716"
+                }
+            },
+            "0xB2a8671BFb526B4fBB0831cbe7a0424440098F03": {
+                "endingBalance": {
+                    "BigNumber": "30972390435667903369",
+                    "decimal": "30.972390435667903369"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "30972390435667903369",
+                        "decimal": "30.972390435667903369"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "30972390435667903369",
+                    "decimal": "30.972390435667903369"
+                },
+                "rewards": {
+                    "BigNumber": "793756570830449934788.52385534891335762093",
+                    "decimal": "793.75657083044993478852"
+                }
+            },
+            "0x78b362e9EB50736A2d04dc532c8c7C487290e502": {
+                "endingBalance": {
+                    "BigNumber": "30484880080864780678",
+                    "decimal": "30.484880080864780678"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "30484880080864780678",
+                        "decimal": "30.484880080864780678"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "30484880080864780678",
+                    "decimal": "30.484880080864780678"
+                },
+                "rewards": {
+                    "BigNumber": "781262716076919738075.09624505285335605585",
+                    "decimal": "781.2627160769197380751"
+                }
+            },
+            "0xE88b89B20F4E071124678a73Df7d95D6D7f2a2aA": {
+                "endingBalance": {
+                    "BigNumber": "13170575614701264943",
+                    "decimal": "13.170575614701264943"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "13170575614701264943",
+                        "decimal": "13.170575614701264943"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "13170575614701264943",
+                    "decimal": "13.170575614701264943"
+                },
+                "rewards": {
+                    "BigNumber": "337533874161333562708.23262132346577129602",
+                    "decimal": "337.53387416133356270823"
+                }
+            },
+            "0x7820774535B91fCEA012D0be5A1AB90DB9D9e9D0": {
+                "endingBalance": {
+                    "BigNumber": "711011097019293730",
+                    "decimal": "0.71101109701929373"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "711011097019293730",
+                        "decimal": "0.71101109701929373"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xDE9507c0acc8E4828b2999ABe5058c27dF940677": {
+                "endingBalance": {
+                    "BigNumber": "5443881492487646439",
+                    "decimal": "5.443881492487646439"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "5443881492487646439",
+                        "decimal": "5.443881492487646439"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "5443881492487646439",
+                    "decimal": "5.443881492487646439"
+                },
+                "rewards": {
+                    "BigNumber": "139515117971266896109.91049514360347730767",
+                    "decimal": "139.51511797126689610991"
+                }
+            },
+            "0x766B143164d5dD21b38957eA2b47703956D16c45": {
+                "endingBalance": {
+                    "BigNumber": "8549054063124246663",
+                    "decimal": "8.549054063124246663"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "7131079085168524904",
+                        "decimal": "7.131079085168524904"
+                    },
+                    {
+                        "BigNumber": "1417974977955721759",
+                        "decimal": "1.417974977955721759"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xCC0960243d099BCaE96c0D1AEACDdA01434d2ebc": {
+                "endingBalance": {
+                    "BigNumber": "4351482425810642297",
+                    "decimal": "4.351482425810642297"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "4351482425810642297",
+                        "decimal": "4.351482425810642297"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "4351482425810642297",
+                    "decimal": "4.351482425810642297"
+                },
+                "rewards": {
+                    "BigNumber": "111519250524582220958.23109490092552326143",
+                    "decimal": "111.51925052458222095823"
+                }
+            },
+            "0x5aCf65B798C02A2d0913BEf46594583b88Ee5ABd": {
+                "endingBalance": {
+                    "BigNumber": "487049601502895717426",
+                    "decimal": "487.049601502895717426"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "487049601502895717426",
+                        "decimal": "487.049601502895717426"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "487049601502895717426",
+                    "decimal": "487.049601502895717426"
+                },
+                "rewards": {
+                    "BigNumber": "1.248204662524424419827934913286037120018267e+22",
+                    "decimal": "12482.04662524424419827935"
+                }
+            },
+            "0x288145Ae8d3a315C3E2A5b541bB3316bCd955d14": {
+                "endingBalance": {
+                    "BigNumber": "2163146244336096843",
+                    "decimal": "2.163146244336096843"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "2163146244336096843",
+                        "decimal": "2.163146244336096843"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "2163146244336096843",
+                    "decimal": "2.163146244336096843"
+                },
+                "rewards": {
+                    "BigNumber": "55436842973917533228.50868045319116761004",
+                    "decimal": "55.43684297391753322851"
+                }
+            },
+            "0x344eaEd2db53372cf9F8ed49Df20D38aF754b105": {
+                "endingBalance": {
+                    "BigNumber": "8026433173586543576",
+                    "decimal": "8.026433173586543576"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "7293537732378234964",
+                        "decimal": "7.293537732378234964"
+                    },
+                    {
+                        "BigNumber": "732895441208308612",
+                        "decimal": "0.732895441208308612"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0xb3Ca1152684e8ffa8FfEB8431e6d177285213c99": {
+                "endingBalance": {
+                    "BigNumber": "2.304953898301825706534e+21",
+                    "decimal": "2304.953898301825706534"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "2.304953898301825706534e+21",
+                        "decimal": "2304.953898301825706534"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "2.304953898301825706534e+21",
+                    "decimal": "2304.953898301825706534"
+                },
+                "rewards": {
+                    "BigNumber": "5.907107189671074040757374655006745506278807e+22",
+                    "decimal": "59071.07189671074040757375"
+                }
+            },
+            "0xAE151Eeb1E090673F0Bf077254c5C3FE9911E167": {
+                "endingBalance": {
+                    "BigNumber": "74851950993930098558",
+                    "decimal": "74.851950993930098558"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "74851950993930098558",
+                        "decimal": "74.851950993930098558"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "74851950993930098558",
+                    "decimal": "74.851950993930098558"
+                },
+                "rewards": {
+                    "BigNumber": "1.91829649262361195540375363708227252378689e+21",
+                    "decimal": "1918.29649262361195540375"
+                }
+            },
+            "0x6ac477aaF89018d8E5B5eC4C12C7993d50d924EC": {
+                "endingBalance": {
+                    "BigNumber": "32565548719122706986",
+                    "decimal": "32.565548719122706986"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "32565548719122706986",
+                        "decimal": "32.565548719122706986"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "32565548719122706986",
+                    "decimal": "32.565548719122706986"
+                },
+                "rewards": {
+                    "BigNumber": "834585833217925093186.12502248252415698382",
+                    "decimal": "834.58583321792509318613"
+                }
+            },
+            "0x1cA48a32482eF29708e95F248E8a613f05782ED3": {
+                "endingBalance": {
+                    "BigNumber": "143658969569916929450",
+                    "decimal": "143.65896956991692945"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "143658969569916929450",
+                        "decimal": "143.65896956991692945"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "143658969569916929450",
+                    "decimal": "143.65896956991692945"
+                },
+                "rewards": {
+                    "BigNumber": "3.6816742088959210296293050091763418430484e+21",
+                    "decimal": "3681.67420889592102962931"
+                }
+            },
+            "0xE4A396ac6e20Bbb116A90Ba6B6dE1742D8F1c7AF": {
+                "endingBalance": {
+                    "BigNumber": "11482854224392746046",
+                    "decimal": "11.482854224392746046"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "11482854224392746046",
+                        "decimal": "11.482854224392746046"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "11482854224392746046",
+                    "decimal": "11.482854224392746046"
+                },
+                "rewards": {
+                    "BigNumber": "294281160229839411742.40093134663009392408",
+                    "decimal": "294.2811602298394117424"
+                }
+            },
+            "0xd1Ed971B7Ef4866521513ef704b9F5E9b2fc127E": {
+                "endingBalance": {
+                    "BigNumber": "145179318410732736632",
+                    "decimal": "145.179318410732736632"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "145179318410732736632",
+                        "decimal": "145.179318410732736632"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "145179318410732736632",
+                    "decimal": "145.179318410732736632"
+                },
+                "rewards": {
+                    "BigNumber": "3.72063751994091757897500075879737340079779e+21",
+                    "decimal": "3720.637519940917578975"
+                }
+            },
+            "0x636853BAdD6FB9Da3eCcC3EFfe6D003c5280Ef14": {
+                "endingBalance": {
+                    "BigNumber": "18313633894303810320",
+                    "decimal": "18.31363389430381032"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "18313633894303810320",
+                        "decimal": "18.31363389430381032"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "18313633894303810320",
+                    "decimal": "18.31363389430381032"
+                },
+                "rewards": {
+                    "BigNumber": "469339532238575102284.06990690198702905399",
+                    "decimal": "469.33953223857510228407"
+                }
+            },
+            "0xa84352938260D08Ec5CD5EF8C06f680E3AF86651": {
+                "endingBalance": {
+                    "BigNumber": "9494736818836241134",
+                    "decimal": "9.494736818836241134"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "9494736818836241134",
+                        "decimal": "9.494736818836241134"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "9494736818836241134",
+                    "decimal": "9.494736818836241134"
+                },
+                "rewards": {
+                    "BigNumber": "243329934572244095604.11612650220253755885",
+                    "decimal": "243.32993457224409560412"
+                }
+            },
+            "0x82eE15e7C0c923e512eB0C554a50E08254EbD660": {
+                "endingBalance": {
+                    "BigNumber": "90208602955392113949",
+                    "decimal": "90.208602955392113949"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "90208602955392113949",
+                        "decimal": "90.208602955392113949"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "90208602955392113949",
+                    "decimal": "90.208602955392113949"
+                },
+                "rewards": {
+                    "BigNumber": "2.31185485957256370113716988261051778070171e+21",
+                    "decimal": "2311.85485957256370113717"
+                }
+            },
+            "0x1E6b5c753fD9342F4D1a14070d146f3A69bb40B3": {
+                "endingBalance": {
+                    "BigNumber": "17186856120905281848",
+                    "decimal": "17.186856120905281848"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "17186856120905281848",
+                        "decimal": "17.186856120905281848"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "17186856120905281848",
+                    "decimal": "17.186856120905281848"
+                },
+                "rewards": {
+                    "BigNumber": "440462611570843672828.39884778340904610998",
+                    "decimal": "440.4626115708436728284"
+                }
+            },
+            "0x0930d52c220273812a1364d6B9D14a8520bD776b": {
+                "endingBalance": {
+                    "BigNumber": "12454656603978012557",
+                    "decimal": "12.454656603978012557"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "12454656603978012557",
+                        "decimal": "12.454656603978012557"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "12454656603978012557",
+                    "decimal": "12.454656603978012557"
+                },
+                "rewards": {
+                    "BigNumber": "319186390775304673428.59038462986390380554",
+                    "decimal": "319.18639077530467342859"
+                }
+            },
+            "0x4b8A718F7FA74e969a333BfFf9021bF217C7A5E5": {
+                "endingBalance": {
+                    "BigNumber": "12558216931173794253",
+                    "decimal": "12.558216931173794253"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "12558216931173794253",
+                        "decimal": "12.558216931173794253"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "12558216931173794253",
+                    "decimal": "12.558216931173794253"
+                },
+                "rewards": {
+                    "BigNumber": "321840421963492826206.54163167047484660539",
+                    "decimal": "321.84042196349282620654"
+                }
+            },
+            "0x94e9CCbC4Dd6C53C632C9182ea09B7a6BB252997": {
+                "endingBalance": {
+                    "BigNumber": "107740720461942674062",
+                    "decimal": "107.740720461942674062"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "107740720461942674062",
+                        "decimal": "107.740720461942674062"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "107740720461942674062",
+                    "decimal": "107.740720461942674062"
+                },
+                "rewards": {
+                    "BigNumber": "2.76116578700327606309483533109522837813576e+21",
+                    "decimal": "2761.16578700327606309484"
+                }
+            },
+            "0x7696ea53Be8333D325ab88758339AED274A81011": {
+                "endingBalance": {
+                    "BigNumber": "9620588415684244823",
+                    "decimal": "9.620588415684244823"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "9620588415684244823",
+                        "decimal": "9.620588415684244823"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "9620588415684244823",
+                    "decimal": "9.620588415684244823"
+                },
+                "rewards": {
+                    "BigNumber": "246555243647276536674.60021510738808231748",
+                    "decimal": "246.5552436472765366746"
+                }
+            },
+            "0x88F7541D87b7f3c88115A5b2387587263c5d4C7E": {
+                "endingBalance": {
+                    "BigNumber": "11094139865628551551",
+                    "decimal": "11.094139865628551551"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "11094139865628551551",
+                        "decimal": "11.094139865628551551"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "11094139865628551551",
+                    "decimal": "11.094139865628551551"
+                },
+                "rewards": {
+                    "BigNumber": "284319236978029200828.35377154044369829596",
+                    "decimal": "284.31923697802920082835"
+                }
+            },
+            "0x984dE99cC79Ae73a03abD98812C01449e8a8fbDA": {
+                "endingBalance": {
+                    "BigNumber": "10309095753807432558",
+                    "decimal": "10.309095753807432558"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "10309095753807432558",
+                        "decimal": "10.309095753807432558"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "10309095753807432558",
+                    "decimal": "10.309095753807432558"
+                },
+                "rewards": {
+                    "BigNumber": "264200224096409166438.88000059001226873829",
+                    "decimal": "264.20022409640916643888"
+                }
+            },
+            "0xf5F2a1B2227F91cc07E445F28239AfACd9c75119": {
+                "endingBalance": {
+                    "BigNumber": "1.015763594415064567547e+21",
+                    "decimal": "1015.763594415064567547"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "1.015763594415064567547e+21",
+                        "decimal": "1015.763594415064567547"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "1.015763594415064567547e+21",
+                    "decimal": "1015.763594415064567547"
+                },
+                "rewards": {
+                    "BigNumber": "2.603186309277606293181080732788033851884486e+22",
+                    "decimal": "26031.86309277606293181081"
+                }
+            },
+            "0xDCc9E63A1510174327f26Cc7D549256D24F297aa": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x787D07083802eed29C16F34EECaCf0eb8B8dB08F": {
+                "endingBalance": {
+                    "BigNumber": "13076367087475888645",
+                    "decimal": "13.076367087475888645"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "13076367087475888645",
+                        "decimal": "13.076367087475888645"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "13076367087475888645",
+                    "decimal": "13.076367087475888645"
+                },
+                "rewards": {
+                    "BigNumber": "335119509739939518299.22310203750472158052",
+                    "decimal": "335.11950973993951829922"
+                }
+            },
+            "0x974Ef16B8a9E4ffb8EEDAECa2B01b9F473F601F5": {
+                "endingBalance": {
+                    "BigNumber": "23306147387914630671",
+                    "decimal": "23.306147387914630671"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "23306147387914630671",
+                        "decimal": "23.306147387914630671"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "23306147387914630671",
+                    "decimal": "23.306147387914630671"
+                },
+                "rewards": {
+                    "BigNumber": "597287047259877900398.49581380268994543793",
+                    "decimal": "597.2870472598779003985"
+                }
+            },
+            "0xd57181dc0fBfa302166F36BdCb76DC90e339157D": {
+                "endingBalance": {
+                    "BigNumber": "11054190360492932818",
+                    "decimal": "11.054190360492932818"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "11054190360492932818",
+                        "decimal": "11.054190360492932818"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "11054190360492932818",
+                    "decimal": "11.054190360492932818"
+                },
+                "rewards": {
+                    "BigNumber": "283295416027925697433.50166945529483326331",
+                    "decimal": "283.2954160279256974335"
+                }
+            },
+            "0x3a2FA42B594CDb0D7638C2e4cA84dFa5119d1C2e": {
+                "endingBalance": {
+                    "BigNumber": "376025591885122869012",
+                    "decimal": "376.025591885122869012"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "376025591885122869012",
+                        "decimal": "376.025591885122869012"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "376025591885122869012",
+                    "decimal": "376.025591885122869012"
+                },
+                "rewards": {
+                    "BigNumber": "9.63673711201519604671929483886544259320602e+21",
+                    "decimal": "9636.73711201519604671929"
+                }
+            },
+            "0xAf5A1DBCc1ca4752A41524fC036ac23f3b5d6f5D": {
+                "endingBalance": {
+                    "BigNumber": "51803789289665976683",
+                    "decimal": "51.803789289665976683"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "51803789289665976683",
+                        "decimal": "51.803789289665976683"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "51803789289665976683",
+                    "decimal": "51.803789289665976683"
+                },
+                "rewards": {
+                    "BigNumber": "1.32762107038515811442998700363592309669944e+21",
+                    "decimal": "1327.62107038515811442999"
+                }
+            },
+            "0xB61FAcEd228E1f246C943A961359CD961637D832": {
+                "endingBalance": {
+                    "BigNumber": "65449193037216174660",
+                    "decimal": "65.44919303721617466"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "65449193037216174660",
+                        "decimal": "65.44919303721617466"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "65449193037216174660",
+                    "decimal": "65.44919303721617466"
+                },
+                "rewards": {
+                    "BigNumber": "1.67732378089274790688909620348557707259766e+21",
+                    "decimal": "1677.3237808927479068891"
+                }
+            },
+            "0xE2fE1Af4dA9E151A613991D5788BEA68D36B8059": {
+                "endingBalance": {
+                    "BigNumber": "2.158128605307187748642e+21",
+                    "decimal": "2158.128605307187748642"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "2.158128605307187748642e+21",
+                        "decimal": "2158.128605307187748642"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "2.158128605307187748642e+21",
+                    "decimal": "2158.128605307187748642"
+                },
+                "rewards": {
+                    "BigNumber": "5.530825154480183523846971941117458944535161e+22",
+                    "decimal": "55308.25154480183523846972"
+                }
+            },
+            "0x87616fA850c87a78f307878f32D808dad8f4d401": {
+                "endingBalance": {
+                    "BigNumber": "167553036166662888132",
+                    "decimal": "167.553036166662888132"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "167553036166662888132",
+                        "decimal": "167.553036166662888132"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "167553036166662888132",
+                    "decimal": "167.553036166662888132"
+                },
+                "rewards": {
+                    "BigNumber": "4.29402837653504784668407021324717563013988e+21",
+                    "decimal": "4294.02837653504784668407"
+                }
+            },
+            "0x02aa0B826c7BA6386DdBE04C0a8715A1c0A16B24": {
+                "endingBalance": {
+                    "BigNumber": "37181060357891824598",
+                    "decimal": "37.181060357891824598"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "37181060357891824598",
+                        "decimal": "37.181060357891824598"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "37181060357891824598",
+                    "decimal": "37.181060357891824598"
+                },
+                "rewards": {
+                    "BigNumber": "952871591581554661726.51041098402047462978",
+                    "decimal": "952.87159158155466172651"
+                }
+            },
+            "0x2c9dBeeefF0E34Da0fC2774E535546c7c7AD3329": {
+                "endingBalance": {
+                    "BigNumber": "8711694431416912017",
+                    "decimal": "8.711694431416912017"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "8711694431416912017",
+                        "decimal": "8.711694431416912017"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "8711694431416912017",
+                    "decimal": "8.711694431416912017"
+                },
+                "rewards": {
+                    "BigNumber": "223262221634689166511.96119080250898142663",
+                    "decimal": "223.26222163468916651196"
+                }
+            },
+            "0x672123e001bE26729Aa02356aAEcC5E609654a05": {
+                "endingBalance": {
+                    "BigNumber": "13378844741801997210",
+                    "decimal": "13.37884474180199721"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "13378844741801997210",
+                        "decimal": "13.37884474180199721"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "13378844741801997210",
+                    "decimal": "13.37884474180199721"
+                },
+                "rewards": {
+                    "BigNumber": "342871369453493870278.43049064459850026251",
+                    "decimal": "342.87136945349387027843"
+                }
+            },
+            "0x98B29AaaD189E3Bb3650a30D57ab1E2DfC9526a3": {
+                "endingBalance": {
+                    "BigNumber": "39957443568216632188",
+                    "decimal": "39.957443568216632188"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "39957443568216632188",
+                        "decimal": "39.957443568216632188"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "39957443568216632188",
+                    "decimal": "39.957443568216632188"
+                },
+                "rewards": {
+                    "BigNumber": "1.02402439526701975867375666314520055320145e+21",
+                    "decimal": "1024.02439526701975867376"
+                }
+            },
+            "0xF7531B19178545a779C13bF5A712b56Cf3003a3B": {
+                "endingBalance": {
+                    "BigNumber": "66932141727429985149",
+                    "decimal": "66.932141727429985149"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "66932141727429985149",
+                        "decimal": "66.932141727429985149"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "66932141727429985149",
+                    "decimal": "66.932141727429985149"
+                },
+                "rewards": {
+                    "BigNumber": "1.71532860552862970859830576457585918693419e+21",
+                    "decimal": "1715.32860552862970859831"
+                }
+            },
+            "0x4071960375f26a7565b8b3EF874a0C22Db4074CB": {
+                "endingBalance": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x93273Ce236Dcca5B590a50CAd38e79317b8a4E49": {
+                "endingBalance": {
+                    "BigNumber": "8586660149130695160",
+                    "decimal": "8.58666014913069516"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "8586660149130695160",
+                        "decimal": "8.58666014913069516"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "8586660149130695160",
+                    "decimal": "8.58666014913069516"
+                },
+                "rewards": {
+                    "BigNumber": "220057858595617405004.57000147337645252681",
+                    "decimal": "220.05785859561740500457"
+                }
+            },
+            "0xE272a25b3b30A6C76AB15224F24eaAEeD24AbED9": {
+                "endingBalance": {
+                    "BigNumber": "676547853634496548897",
+                    "decimal": "676.547853634496548897"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "676547853634496548897",
+                        "decimal": "676.547853634496548897"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "676547853634496548897",
+                    "decimal": "676.547853634496548897"
+                },
+                "rewards": {
+                    "BigNumber": "1.733848426775583178217208943058892357827934e+22",
+                    "decimal": "17338.48426775583178217209"
+                }
+            },
+            "0x99152f5E0f17eD1A8dcA2351425283b2CC0AAFA7": {
+                "endingBalance": {
+                    "BigNumber": "16645547035338545244",
+                    "decimal": "16.645547035338545244"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "16645547035338545244",
+                        "decimal": "16.645547035338545244"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "16645547035338545244",
+                    "decimal": "16.645547035338545244"
+                },
+                "rewards": {
+                    "BigNumber": "426590009634894524313.02356645125113917668",
+                    "decimal": "426.59000963489452431302"
+                }
+            },
+            "0xDfDfb69CfF0041E35A37526ea2b05Fe3D9C86050": {
+                "endingBalance": {
+                    "BigNumber": "33203940822271991812",
+                    "decimal": "33.203940822271991812"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "33203940822271991812",
+                        "decimal": "33.203940822271991812"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "33203940822271991812",
+                    "decimal": "33.203940822271991812"
+                },
+                "rewards": {
+                    "BigNumber": "850946466656714038236.94953778503749228301",
+                    "decimal": "850.94646665671403823695"
+                }
+            },
+            "0x1fd9da4a46701157a8feE34CE53826C1c8FC7f8C": {
+                "endingBalance": {
+                    "BigNumber": "66849121509821888001",
+                    "decimal": "66.849121509821888001"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "66849121509821888001",
+                        "decimal": "66.849121509821888001"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "66849121509821888001",
+                    "decimal": "66.849121509821888001"
+                },
+                "rewards": {
+                    "BigNumber": "1.71320097371489947856784948941790514061306e+21",
+                    "decimal": "1713.20097371489947856785"
+                }
+            },
+            "0x1DC5EeFE2D20d1aB0dB794a4236df147C0f60921": {
+                "endingBalance": {
+                    "BigNumber": "66326987383829238947",
+                    "decimal": "66.326987383829238947"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "66326987383829238947",
+                        "decimal": "66.326987383829238947"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "66326987383829238947",
+                    "decimal": "66.326987383829238947"
+                },
+                "rewards": {
+                    "BigNumber": "1.69981978525860905700655798351695918723145e+21",
+                    "decimal": "1699.81978525860905700656"
+                }
+            },
+            "0xE90558e78964DF67A69866Bd1d838C2dA2966301": {
+                "endingBalance": {
+                    "BigNumber": "62844201828212475808",
+                    "decimal": "62.844201828212475808"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "62844201828212475808",
+                        "decimal": "62.844201828212475808"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "62844201828212475808",
+                    "decimal": "62.844201828212475808"
+                },
+                "rewards": {
+                    "BigNumber": "1.61056339010544074669522535368652150636516e+21",
+                    "decimal": "1610.56339010544074669523"
+                }
+            },
+            "0x305532a9e75F09815b3bf2e49f93218F2dAc9E57": {
+                "endingBalance": {
+                    "BigNumber": "34135655058145286154",
+                    "decimal": "34.135655058145286154"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "34135655058145286154",
+                        "decimal": "34.135655058145286154"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "34135655058145286154",
+                    "decimal": "34.135655058145286154"
+                },
+                "rewards": {
+                    "BigNumber": "874824323239879992927.40958623001605623637",
+                    "decimal": "874.82432323987999292741"
+                }
+            },
+            "0x874cC5CDEa8919A2C89eFF1fD71257A89374FB0D": {
+                "endingBalance": {
+                    "BigNumber": "9021032286255941471",
+                    "decimal": "9.021032286255941471"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "9021032286255941471",
+                        "decimal": "9.021032286255941471"
+                    },
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                },
+                "rewards": {
+                    "BigNumber": "0",
+                    "decimal": "0"
+                }
+            },
+            "0x5Ffce7da157DB225013498E4F50D4016F0Da838C": {
+                "endingBalance": {
+                    "BigNumber": "64442435608443000397",
+                    "decimal": "64.442435608443000397"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "64442435608443000397",
+                        "decimal": "64.442435608443000397"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "64442435608443000397",
+                    "decimal": "64.442435608443000397"
+                },
+                "rewards": {
+                    "BigNumber": "1.65152272669317258950981771015706021959269e+21",
+                    "decimal": "1651.52272669317258950982"
+                }
+            },
+            "0x1D1c06A233D3b14e80F3a71fB4E7db5B3aA4E729": {
+                "endingBalance": {
+                    "BigNumber": "65029000273842900079",
+                    "decimal": "65.029000273842900079"
+                },
+                "rewardsBalances": [
+                    {
+                        "BigNumber": "0",
+                        "decimal": "0"
+                    },
+                    {
+                        "BigNumber": "65029000273842900079",
+                        "decimal": "65.029000273842900079"
+                    }
+                ],
+                "totalWeight": {
+                    "BigNumber": "65029000273842900079",
+                    "decimal": "65.029000273842900079"
+                },
+                "rewards": {
+                    "BigNumber": "1.6665551330017912559734708726395037218732e+21",
+                    "decimal": "1666.55513300179125597347"
+                }
+            }
+        }
+    },
+    "transferDict": {
+        "0x9b4823a4C0e28b05c2EfA898c20C36404c089789": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x3E11d657331c286624826ac797a974777be0e47F": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x11519BA13c6b5494f971BAFf171A1045261beD6C": {
+            "BigNumber": "92802085541076421017.78615774805233225665",
+            "decimal": "92.80208554107642101779"
+        },
+        "0x98C149E666cb3052c57C5D9818b41c82DEDDF350": {
+            "BigNumber": "1.05371080952013749243723466884727005728488e+21",
+            "decimal": "1053.71080952013749243723"
+        },
+        "0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x69fAa59e22242667bdfa03c6AABEe7cB6a57666c": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x775EE938186FddC13bD7C89D24820E1b0758F91D": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xF993f7945D410E20e2726F4FA02CC557D5e9Fafe": {
+            "BigNumber": "1.078652000679700100997959582235115113986626e+22",
+            "decimal": "10786.5200067970010099796"
+        },
+        "0x85c5489F74FE5000fF0701535D9Ec8eF49dfe704": {
+            "BigNumber": "1.09624324812371363580139605061895344629421e+21",
+            "decimal": "1096.2432481237136358014"
+        },
+        "0xEce772FE6bb5E9869c12EcfA94F5A6b463Ee6cD7": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x052aA017270434C91cA09c082018BD3B8f26e613": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x2d24e67A7F502d24631e5734E79cD0A63Cd7533c": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x91215714613EC4554EAdc9563669751cbCF265d0": {
+            "BigNumber": "3.18080146073000357567425822295674780966394e+21",
+            "decimal": "3180.80146073000357567426"
+        },
+        "0xFE51829502D354c7280cE9EEaCeD3Ff206b223B5": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xcfB464585241eab3Ecb392011648a8e829b951eD": {
+            "BigNumber": "1.36476705113695766045446553869565562949433e+21",
+            "decimal": "1364.76705113695766045447"
+        },
+        "0x6B2eE2D274B8FE2C1bb59370856c46F8e5AE6e6f": {
+            "BigNumber": "67161734370212182293.89025001054832300664",
+            "decimal": "67.16173437021218229389"
+        },
+        "0x992A4DC6bec613742034F6d7b7942275a45f5D00": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x347EdDE1B22aD77d66f34767069CDFb744a505a7": {
+            "BigNumber": "220309271193721862649.55282634389625367799",
+            "decimal": "220.30927119372186264955"
+        },
+        "0xE0e8C1D735698060477e79a8e4C20276Fc2Ec7A7": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xDC431CA1db8C0D932D27a489616eff5088B914Cb": {
+            "BigNumber": "252001235777702168578.13601926549146348216",
+            "decimal": "252.00123577770216857814"
+        },
+        "0x4740988434Aab9d22d5E096f0551605bE9F9637D": {
+            "BigNumber": "382254646887037419779.05904354863398480273",
+            "decimal": "382.25464688703741977906"
+        },
+        "0x0BEc2a7885d600DDB7a06e58ea1ff475dfc7cc22": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x3CFf903E1d95d910208eF1e8da23fbc34d64f55d": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x617e1eEdDC9953beabDF21e03b8EcC1CFDC39149": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x551420fD2a830C7692367D818770B6eF86f12646": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x6Bf1005A7D99F3d5e1ab2689D7035DE24BF4539f": {
+            "BigNumber": "4.636379889492864855605207784962465894726481e+22",
+            "decimal": "46363.79889492864855605208"
+        },
+        "0x99A9d2c4dBCA1AB05631F4BFDF75AbC76Ca39983": {
+            "BigNumber": "131190842706405316132.41392774297069231998",
+            "decimal": "131.19084270640531613241"
+        },
+        "0xFBA22623A465d0Cf942e86a17B871d153Af6461C": {
+            "BigNumber": "5.27222767173675500860054071055769110769276e+21",
+            "decimal": "5272.22767173675500860054"
+        },
+        "0x4d4EB52056F36C1efF1753B4A23D9CE0aDaB17ce": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xF26b01dcAC5498800Af6d44D648Cbf07D347BAe2": {
+            "BigNumber": "485828015406367884619.81439686315598425787",
+            "decimal": "485.82801540636788461981"
+        },
+        "0xa53eFF9F0Ba54314169791E9273ebc6c526F4890": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x7Ca930CA2d705e491332140Aa07357748AA0Bafd": {
+            "BigNumber": "1.55646471646273121181846467862961178023354e+21",
+            "decimal": "1556.46471646273121181846"
+        },
+        "0x4530B100BF6400268E22fE64d7548fFaafA8dC39": {
+            "BigNumber": "9.7964710069225253409932799150014585755538e+21",
+            "decimal": "9796.47100692252534099328"
+        },
+        "0xAe45cefA685CA1AA9C3028869190a3bb50b8Ae3C": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xe310EcB5ad4BDF59d7E2BfA28871a67D260eCEf0": {
+            "BigNumber": "4.8629312066467094632675219910372781099023e+21",
+            "decimal": "4862.93120664670946326752"
+        },
+        "0xA310eCFa5dc579D3E397cCc10d28ED24C957BE8d": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x3EC0ea164b51a91F7988970eEC800FE3eF31aD2c": {
+            "BigNumber": "2.42847738807760879069795240314320604215557e+21",
+            "decimal": "2428.47738807760879069795"
+        },
+        "0xa4317aB9d7DF7453d8E0853415e04f7e3a78f78F": {
+            "BigNumber": "3.937883806241589985778947988142563943368208e+22",
+            "decimal": "39378.83806241589985778948"
+        },
+        "0x7D0E096c7cC8294c6ff344313565d1363F58B136": {
+            "BigNumber": "358574290448046115950.47209114512332091827",
+            "decimal": "358.57429044804611595047"
+        },
+        "0x14a0947b8FbebE53Ad5EF8c5f80F14aDbc559D53": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x15943509d0C216a9aa36fbFe0095948065433df7": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xC9DCed6e27800B852c5c01Bc3414378564F483d1": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xF150CE89087cf17cB7166E5dA2aCf7Bd6E7383e8": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xa3B99E297BE342d4bCF9E80099BB0563F4383EDA": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x9CD448377D6C86E47f0e8a8521086B6cF30b580c": {
+            "BigNumber": "1.16715592112993499194666764501430877772509e+21",
+            "decimal": "1167.15592112993499194667"
+        },
+        "0x5D4dac7968760a65CDa5D9edF33cb55F4d7A5727": {
+            "BigNumber": "387867398909729103493.31676675362528649264",
+            "decimal": "387.86739890972910349332"
+        },
+        "0x51738CfB64B14E3F04C9032ea5AfC0f970328b7E": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x99A28F70458d4E25b00D4974dC6729d329c16C87": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xbb681E2EFDa1FE3Cbf8222579507f296e9493f0C": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xBAaeBF1851F80e1e7CAdEBeCe2026A897B7A3508": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x43c5A16EBEeb3e8B8d8eb9dfF67b4F816e1e4eCf": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xC1f0432F11C175e29681ff754B061E59394fbC49": {
+            "BigNumber": "4.84197637550363389270414539466934170572748e+21",
+            "decimal": "4841.97637550363389270415"
+        },
+        "0xB24763b5451f8E7e218738a5d85471b6394e505e": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x5c5b40855fc364b797c1F539F7Eb39cDC94a8a91": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x11111254369792b2Ca5d084aB5eEA397cA8fa48B": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x6Ad3C0b8D8509e94F597e86465c4e79738dd6349": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xD2Ce2670A6428c9Ba41c2878a498A2a8c0c1748c": {
+            "BigNumber": "909735641010286375692.8545764919601686258",
+            "decimal": "909.73564101028637569285"
+        },
+        "0x2FEC5468F92b1BB8Aa9291990047505adf489636": {
+            "BigNumber": "1.473429403574435447887872539834603893815512e+22",
+            "decimal": "14734.29403574435447887873"
+        },
+        "0xF4228B53433997726D6f98EBAEbfd1F83e08aE59": {
+            "BigNumber": "1.75184001772553985152499778843663293144487e+21",
+            "decimal": "1751.840017725539851525"
+        },
+        "0x8eF586F7CC327D3E0E29Cf6fD7D01aF3569390B0": {
+            "BigNumber": "218129531260769100596.62761089008537828632",
+            "decimal": "218.12953126076910059663"
+        },
+        "0x0AaBeb51d0d9f843f1Bd75cA866F7084A8dA8854": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x736011B7d04d8a014EFdAe6a653E3405f3CDC720": {
+            "BigNumber": "6.48273486257708041548696778814769012073439e+21",
+            "decimal": "6482.73486257708041548697"
+        },
+        "0x2A3b4986cb64Bd5e4C6484282FB896fbe60B4e28": {
+            "BigNumber": "1.17774191708688432524781947102614454283823e+21",
+            "decimal": "1177.74191708688432524782"
+        },
+        "0x7bD120e7678F5DF145f7B3c570a5FAB50D69b35f": {
+            "BigNumber": "191285898419253443942.97628423757382917001",
+            "decimal": "191.28589841925344394298"
+        },
+        "0x2B0e1D464d4eA1BF5D6fb73aB06E7c1E4f34B146": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xF7B9BA7eB8E7542DD71825f695cE01f5F1D7b7df": {
+            "BigNumber": "76666341773430704706.62681828444644291691",
+            "decimal": "76.66634177343070470663"
+        },
+        "0x3837E2c3Ba88D3706FAb9337B4337a8D0BaEb06c": {
+            "BigNumber": "1.71115062661918606817734162352083166953661e+21",
+            "decimal": "1711.15062661918606817734"
+        },
+        "0x54f3fBc175049243F3056de5ADDa5605048F9de6": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xbB587dfBA6FdfF7784bED72A096d80f72dD1c30a": {
+            "BigNumber": "378293140365785940618.71156536048963835325",
+            "decimal": "378.29314036578594061871"
+        },
+        "0x5a075fDeF83cFDAa2082692060fEAd2FC5Ba7480": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x765BA2D1E702C6E02C47D56CBe1B855dD79C8C14": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x81bc7b618245EaA600F14a83B96d43230D2F51C4": {
+            "BigNumber": "2.55673746396464288607412007922925514420154e+21",
+            "decimal": "2556.73746396464288607412"
+        },
+        "0x058cFe683a1688E283bC88c6065c583F78cD90Fb": {
+            "BigNumber": "849308336029044153546.28801402926584007381",
+            "decimal": "849.30833602904415354629"
+        },
+        "0xF4d63BAE0aC9C6fC57ECfB25A1E0077dBa6aa091": {
+            "BigNumber": "577787619223038509001.70053165157165176033",
+            "decimal": "577.7876192230385090017"
+        },
+        "0x343E3a490c9251dC0eaA81Da146ba6ABe6C78b2d": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x623494D03351c08Ae7FE7a4Dc2E3E2f5ebfb7B38": {
+            "BigNumber": "388682506141151160832.1342277024606095479",
+            "decimal": "388.68250614115116083213"
+        },
+        "0x303d0e1eC982DF5D681F7C5C0D323619FdFB8Cf7": {
+            "BigNumber": "405541470199424682159.55886827614775498382",
+            "decimal": "405.54147019942468215956"
+        },
+        "0xA4f25102E7B022ad4e04de84A7F91a70C8D78F02": {
+            "BigNumber": "8.37537483011185510426716333422420858187497e+21",
+            "decimal": "8375.37483011185510426716"
+        },
+        "0xB2a8671BFb526B4fBB0831cbe7a0424440098F03": {
+            "BigNumber": "793756570830449934788.52385534891335762093",
+            "decimal": "793.75657083044993478852"
+        },
+        "0x78b362e9EB50736A2d04dc532c8c7C487290e502": {
+            "BigNumber": "781262716076919738075.09624505285335605585",
+            "decimal": "781.2627160769197380751"
+        },
+        "0xE88b89B20F4E071124678a73Df7d95D6D7f2a2aA": {
+            "BigNumber": "337533874161333562708.23262132346577129602",
+            "decimal": "337.53387416133356270823"
+        },
+        "0x7820774535B91fCEA012D0be5A1AB90DB9D9e9D0": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xDE9507c0acc8E4828b2999ABe5058c27dF940677": {
+            "BigNumber": "139515117971266896109.91049514360347730767",
+            "decimal": "139.51511797126689610991"
+        },
+        "0x766B143164d5dD21b38957eA2b47703956D16c45": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xCC0960243d099BCaE96c0D1AEACDdA01434d2ebc": {
+            "BigNumber": "111519250524582220958.23109490092552326143",
+            "decimal": "111.51925052458222095823"
+        },
+        "0x5aCf65B798C02A2d0913BEf46594583b88Ee5ABd": {
+            "BigNumber": "1.248204662524424419827934913286037120018267e+22",
+            "decimal": "12482.04662524424419827935"
+        },
+        "0x288145Ae8d3a315C3E2A5b541bB3316bCd955d14": {
+            "BigNumber": "55436842973917533228.50868045319116761004",
+            "decimal": "55.43684297391753322851"
+        },
+        "0x344eaEd2db53372cf9F8ed49Df20D38aF754b105": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0xb3Ca1152684e8ffa8FfEB8431e6d177285213c99": {
+            "BigNumber": "5.907107189671074040757374655006745506278807e+22",
+            "decimal": "59071.07189671074040757375"
+        },
+        "0xAE151Eeb1E090673F0Bf077254c5C3FE9911E167": {
+            "BigNumber": "1.91829649262361195540375363708227252378689e+21",
+            "decimal": "1918.29649262361195540375"
+        },
+        "0x6ac477aaF89018d8E5B5eC4C12C7993d50d924EC": {
+            "BigNumber": "834585833217925093186.12502248252415698382",
+            "decimal": "834.58583321792509318613"
+        },
+        "0x1cA48a32482eF29708e95F248E8a613f05782ED3": {
+            "BigNumber": "3.6816742088959210296293050091763418430484e+21",
+            "decimal": "3681.67420889592102962931"
+        },
+        "0xE4A396ac6e20Bbb116A90Ba6B6dE1742D8F1c7AF": {
+            "BigNumber": "294281160229839411742.40093134663009392408",
+            "decimal": "294.2811602298394117424"
+        },
+        "0xd1Ed971B7Ef4866521513ef704b9F5E9b2fc127E": {
+            "BigNumber": "3.72063751994091757897500075879737340079779e+21",
+            "decimal": "3720.637519940917578975"
+        },
+        "0x636853BAdD6FB9Da3eCcC3EFfe6D003c5280Ef14": {
+            "BigNumber": "469339532238575102284.06990690198702905399",
+            "decimal": "469.33953223857510228407"
+        },
+        "0xa84352938260D08Ec5CD5EF8C06f680E3AF86651": {
+            "BigNumber": "243329934572244095604.11612650220253755885",
+            "decimal": "243.32993457224409560412"
+        },
+        "0x82eE15e7C0c923e512eB0C554a50E08254EbD660": {
+            "BigNumber": "2.31185485957256370113716988261051778070171e+21",
+            "decimal": "2311.85485957256370113717"
+        },
+        "0x1E6b5c753fD9342F4D1a14070d146f3A69bb40B3": {
+            "BigNumber": "440462611570843672828.39884778340904610998",
+            "decimal": "440.4626115708436728284"
+        },
+        "0x0930d52c220273812a1364d6B9D14a8520bD776b": {
+            "BigNumber": "319186390775304673428.59038462986390380554",
+            "decimal": "319.18639077530467342859"
+        },
+        "0x4b8A718F7FA74e969a333BfFf9021bF217C7A5E5": {
+            "BigNumber": "321840421963492826206.54163167047484660539",
+            "decimal": "321.84042196349282620654"
+        },
+        "0x94e9CCbC4Dd6C53C632C9182ea09B7a6BB252997": {
+            "BigNumber": "2.76116578700327606309483533109522837813576e+21",
+            "decimal": "2761.16578700327606309484"
+        },
+        "0x7696ea53Be8333D325ab88758339AED274A81011": {
+            "BigNumber": "246555243647276536674.60021510738808231748",
+            "decimal": "246.5552436472765366746"
+        },
+        "0x88F7541D87b7f3c88115A5b2387587263c5d4C7E": {
+            "BigNumber": "284319236978029200828.35377154044369829596",
+            "decimal": "284.31923697802920082835"
+        },
+        "0x984dE99cC79Ae73a03abD98812C01449e8a8fbDA": {
+            "BigNumber": "264200224096409166438.88000059001226873829",
+            "decimal": "264.20022409640916643888"
+        },
+        "0xf5F2a1B2227F91cc07E445F28239AfACd9c75119": {
+            "BigNumber": "2.603186309277606293181080732788033851884486e+22",
+            "decimal": "26031.86309277606293181081"
+        },
+        "0xDCc9E63A1510174327f26Cc7D549256D24F297aa": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x787D07083802eed29C16F34EECaCf0eb8B8dB08F": {
+            "BigNumber": "335119509739939518299.22310203750472158052",
+            "decimal": "335.11950973993951829922"
+        },
+        "0x974Ef16B8a9E4ffb8EEDAECa2B01b9F473F601F5": {
+            "BigNumber": "597287047259877900398.49581380268994543793",
+            "decimal": "597.2870472598779003985"
+        },
+        "0xd57181dc0fBfa302166F36BdCb76DC90e339157D": {
+            "BigNumber": "283295416027925697433.50166945529483326331",
+            "decimal": "283.2954160279256974335"
+        },
+        "0x3a2FA42B594CDb0D7638C2e4cA84dFa5119d1C2e": {
+            "BigNumber": "9.63673711201519604671929483886544259320602e+21",
+            "decimal": "9636.73711201519604671929"
+        },
+        "0xAf5A1DBCc1ca4752A41524fC036ac23f3b5d6f5D": {
+            "BigNumber": "1.32762107038515811442998700363592309669944e+21",
+            "decimal": "1327.62107038515811442999"
+        },
+        "0xB61FAcEd228E1f246C943A961359CD961637D832": {
+            "BigNumber": "1.67732378089274790688909620348557707259766e+21",
+            "decimal": "1677.3237808927479068891"
+        },
+        "0xE2fE1Af4dA9E151A613991D5788BEA68D36B8059": {
+            "BigNumber": "5.530825154480183523846971941117458944535161e+22",
+            "decimal": "55308.25154480183523846972"
+        },
+        "0x87616fA850c87a78f307878f32D808dad8f4d401": {
+            "BigNumber": "4.29402837653504784668407021324717563013988e+21",
+            "decimal": "4294.02837653504784668407"
+        },
+        "0x02aa0B826c7BA6386DdBE04C0a8715A1c0A16B24": {
+            "BigNumber": "952871591581554661726.51041098402047462978",
+            "decimal": "952.87159158155466172651"
+        },
+        "0x2c9dBeeefF0E34Da0fC2774E535546c7c7AD3329": {
+            "BigNumber": "223262221634689166511.96119080250898142663",
+            "decimal": "223.26222163468916651196"
+        },
+        "0x672123e001bE26729Aa02356aAEcC5E609654a05": {
+            "BigNumber": "342871369453493870278.43049064459850026251",
+            "decimal": "342.87136945349387027843"
+        },
+        "0x98B29AaaD189E3Bb3650a30D57ab1E2DfC9526a3": {
+            "BigNumber": "1.02402439526701975867375666314520055320145e+21",
+            "decimal": "1024.02439526701975867376"
+        },
+        "0xF7531B19178545a779C13bF5A712b56Cf3003a3B": {
+            "BigNumber": "1.71532860552862970859830576457585918693419e+21",
+            "decimal": "1715.32860552862970859831"
+        },
+        "0x4071960375f26a7565b8b3EF874a0C22Db4074CB": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x93273Ce236Dcca5B590a50CAd38e79317b8a4E49": {
+            "BigNumber": "220057858595617405004.57000147337645252681",
+            "decimal": "220.05785859561740500457"
+        },
+        "0xE272a25b3b30A6C76AB15224F24eaAEeD24AbED9": {
+            "BigNumber": "1.733848426775583178217208943058892357827934e+22",
+            "decimal": "17338.48426775583178217209"
+        },
+        "0x99152f5E0f17eD1A8dcA2351425283b2CC0AAFA7": {
+            "BigNumber": "426590009634894524313.02356645125113917668",
+            "decimal": "426.59000963489452431302"
+        },
+        "0xDfDfb69CfF0041E35A37526ea2b05Fe3D9C86050": {
+            "BigNumber": "850946466656714038236.94953778503749228301",
+            "decimal": "850.94646665671403823695"
+        },
+        "0x1fd9da4a46701157a8feE34CE53826C1c8FC7f8C": {
+            "BigNumber": "1.71320097371489947856784948941790514061306e+21",
+            "decimal": "1713.20097371489947856785"
+        },
+        "0x1DC5EeFE2D20d1aB0dB794a4236df147C0f60921": {
+            "BigNumber": "1.69981978525860905700655798351695918723145e+21",
+            "decimal": "1699.81978525860905700656"
+        },
+        "0xE90558e78964DF67A69866Bd1d838C2dA2966301": {
+            "BigNumber": "1.61056339010544074669522535368652150636516e+21",
+            "decimal": "1610.56339010544074669523"
+        },
+        "0x305532a9e75F09815b3bf2e49f93218F2dAc9E57": {
+            "BigNumber": "874824323239879992927.40958623001605623637",
+            "decimal": "874.82432323987999292741"
+        },
+        "0x874cC5CDEa8919A2C89eFF1fD71257A89374FB0D": {
+            "BigNumber": "0",
+            "decimal": "0"
+        },
+        "0x5Ffce7da157DB225013498E4F50D4016F0Da838C": {
+            "BigNumber": "1.65152272669317258950981771015706021959269e+21",
+            "decimal": "1651.52272669317258950982"
+        },
+        "0x1D1c06A233D3b14e80F3a71fB4E7db5B3aA4E729": {
+            "BigNumber": "1.6665551330017912559734708726395037218732e+21",
+            "decimal": "1666.55513300179125597347"
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import BigNumber from 'bignumber.js';
 
-export const PROVIDER = 'wss://mainnet.infura.io/ws/v3/';
+export const PROVIDER =
+	process.env.PROVIDER || 'wss://mainnet.infura.io/ws/v3/';
 // Block start of pool (reduces the blocks to query for events)
 export const POOL_START_BLOCK = 10590454;
 // Address of the liquidity pool

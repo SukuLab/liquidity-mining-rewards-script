@@ -108,7 +108,6 @@ export default class Campaign {
 			for (let period = 1; period < campaignBlocks.length; period++) {
 				console.log(`Running balance calucations for period: ${period}`);
 
-				// TEST: Adding 1 to CAMPAIGN_BLOCKS
 				const transferDiff = await this.erc20Manager.getTransferDiff(
 					interPeriodBalances[period - 1], // Start with the balances from the previous period / start
 					campaignBlocks[period - 1] + 1, // Adding one to the previous block to prevent double counting
@@ -127,7 +126,7 @@ export default class Campaign {
 				console.table(transferDiff.minBalanceDiff);
 				// TODO: Put ensure this doesn't override files
 				await writeJSONToFile(
-					`outputs/campaign-period-${period}.json`,
+					`results/campaign-period-${period}.json`,
 					endOfPeriodsBalances[period - 1].rewardBalances
 				);
 			}
@@ -360,6 +359,7 @@ export default class Campaign {
 		let transferDict: AccountBalances = {};
 
 		let totalWeight = new BigNumber(0);
+
 		// Loop through each account and sum the weights
 		for (const account in rewards) {
 			if (Object.prototype.hasOwnProperty.call(rewards, account)) {
