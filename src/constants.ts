@@ -11,6 +11,8 @@ export const REWARDS_ADDRESS = '0x9b4823a4c0e28b05c2efa898c20c36404c089789';
 // Max number of blocks to query at a time
 export const BLOCK_GAP = 3000;
 
+export const CURRENT_PRICE = 0.31;
+
 /**
  * These blocks represent the start and end of each period 
  */

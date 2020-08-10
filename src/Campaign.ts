@@ -82,12 +82,10 @@ export default class Campaign {
 				finalPeriodStatus.periodStatus
 			);
 
-			await writeJSONToFile(
-				`results/leaderboard-${moment().format('YYYY-MM-DD')}.json`,
+			await writeMarkdownTableToFile(
+				`results/leaderboard-${moment().format('YYYY - MM - DD')}.md`,
 				rewardsTable
 			);
-
-			await writeMarkdownTableToFile('results/leaderboard.md', rewardsTable);
 
 			return finalPeriodStatus;
 		} catch (e) {
@@ -404,7 +402,7 @@ export default class Campaign {
 
 	private createRewardsTable = (periodStatus: PeriodStatus): any[][] => {
 		let tableHeader = [ 'Account', 'SUKU Rewards', 'USD Rewards' ];
-		let table: [string, number, number][] = [];
+		let table: [string, string, string][] = [];
 		const accountRewards = periodStatus.rewards;
 		for (const account in accountRewards) {
 			if (Object.prototype.hasOwnProperty.call(accountRewards, account)) {
@@ -412,14 +410,14 @@ export default class Campaign {
 				const accountRewardsDecimal = Number(accountDetails.rewards.decimal);
 				table.push([
 					account,
-					accountRewardsDecimal,
-					accountRewardsDecimal * CURRENT_PRICE,
+					accountRewardsDecimal.toFixed(2),
+					'$' + (accountRewardsDecimal * CURRENT_PRICE).toFixed(2),
 				]);
 			}
 		}
 
 		table.sort((accountA, accountB) => {
-			return accountA[1] > accountB[1] ? -1 : 1;
+			return Number(accountA[1]) > Number(accountB[1]) ? -1 : 1;
 		});
 
 		return [ tableHeader, ...table ];
