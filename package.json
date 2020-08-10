@@ -1,15 +1,13 @@
 {
 	"name": "liquidity-mining-rewards-script",
 	"version": "1.0.0",
-	"description": "Boilerplate code for developing Node CLI based applications.",
+	"description": "Calculate rewards distributions based off of ERC-20 holdings over various block periods.",
 	"main": "src/index.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "ts-node ./src/index.ts"
 	},
-	"keywords": [
-		"[\"CLI\"]"
-	],
+	"keywords": [ "[\"CLI\"]" ],
 	"author": "Bryce Doganer",
 	"license": "MIT",
 	"dependencies": {
