@@ -8,3 +8,15 @@ export const getCurrentDirectoryBase = (): string => {
 export const directoryExists = (filePath: string): boolean => {
 	return fs.existsSync(filePath);
 };
+
+export const writeJSONToFile = async (
+	fileName: string,
+	data: {}
+): Promise<void> => {
+	return fs.writeFile(fileName, JSON.stringify(data, null, 4), function(err) {
+		if (err) {
+			console.log(`Error writing to file.`);
+			console.log(err);
+		}
+	});
+};

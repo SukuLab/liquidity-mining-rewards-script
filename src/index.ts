@@ -2,20 +2,29 @@ import chalk from 'chalk';
 import clear from 'clear';
 import figlet from 'figlet';
 
-import * as inquirer from './lib/inquirer';
-import {} from './lib/fileHandler';
+import Campaign from './Campaign';
 
 clear();
 
 console.log(
 	chalk.blue(
-		figlet.textSync('Node CLI', { font: '3-D', horizontalLayout: 'full' })
+		figlet.textSync('SUKU', {
+			font: '3-D',
+			horizontalLayout: 'full',
+		})
 	)
 );
 
 const run = async () => {
-	const credentials = await inquirer.askCredentials();
-	console.log(credentials);
+	try {
+		const campaign = new Campaign();
+		await campaign.runCampaign();
+	} catch (e) {
+		throw new Error(e);
+	}
 };
 
-run();
+(async function() {
+	await run();
+	// process.exit(0);
+})();
