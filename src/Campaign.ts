@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js';
 import moment from 'moment';
 import ERC20Manager, { AccountBalances } from './ERC20Manager';
-import { writeJSONToFile } from './lib/fileHandler';
+import { writeJSONToFile, writeMarkdownTableToFile } from './lib/fileHandler';
 import { getBigNums, BigNums } from './utils/web3';
 import {
 	CAMPAIGN_BLOCKS,
@@ -13,6 +13,7 @@ import {
 	POOL_ADDRESS,
 	POOL_START_BLOCK,
 	EXCLUDED_ADDRESSS,
+	CURRENT_PRICE,
 } from './constants';
 
 interface PeriodStatus {
@@ -73,9 +74,20 @@ export default class Campaign {
 			);
 
 			await writeJSONToFile(
-				`results/${moment().format('YYYY-MM-DD')}.json`,
+				`results/full-details-${moment().format('YYYY-MM-DD')}.json`,
 				finalPeriodStatus
 			);
+
+			const rewardsTable = this.createRewardsTable(
+				finalPeriodStatus.periodStatus
+			);
+
+			await writeJSONToFile(
+				`results/leaderboard-${moment().format('YYYY-MM-DD')}.json`,
+				rewardsTable
+			);
+
+			await writeMarkdownTableToFile('results/leaderboard.md', rewardsTable);
 
 			return finalPeriodStatus;
 		} catch (e) {
@@ -359,6 +371,7 @@ export default class Campaign {
 		let transferDict: AccountBalances = {};
 
 		let totalWeight = new BigNumber(0);
+		let totalRewards = new BigNumber(0);
 
 		// Loop through each account and sum the weights
 		for (const account in rewards) {
@@ -378,9 +391,37 @@ export default class Campaign {
 
 				rewards[account].rewards = rewardsBigNums;
 				transferDict[account] = rewardsBigNums;
+				totalRewards = totalRewards.plus(rewardAmount);
 			}
 		}
 
+		console.log(
+			`calculateRewardsBasedOnWeight- total rewards of: ${totalRewards} vs alloted reards of: ${rewardsPerPeriod.BigNumber}`
+		);
+
 		return { periodStatus, transferDict };
+	};
+
+	private createRewardsTable = (periodStatus: PeriodStatus): any[][] => {
+		let tableHeader = [ 'Account', 'SUKU Rewards', 'USD Rewards' ];
+		let table: [string, number, number][] = [];
+		const accountRewards = periodStatus.rewards;
+		for (const account in accountRewards) {
+			if (Object.prototype.hasOwnProperty.call(accountRewards, account)) {
+				const accountDetails = accountRewards[account];
+				const accountRewardsDecimal = Number(accountDetails.rewards.decimal);
+				table.push([
+					account,
+					accountRewardsDecimal,
+					accountRewardsDecimal * CURRENT_PRICE,
+				]);
+			}
+		}
+
+		table.sort((accountA, accountB) => {
+			return accountA[1] > accountB[1] ? -1 : 1;
+		});
+
+		return [ tableHeader, ...table ];
 	};
 }
