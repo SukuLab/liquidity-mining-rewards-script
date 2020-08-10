@@ -15,7 +15,7 @@ export const BLOCK_GAP = 3000;
  */
 export const CAMPAIGN_BLOCKS = [
 	10620142, // 2020-08-08T12:00:12 ET (Start of campaign)
-	10632076, // 2020-08-10T12:00:00 ET (End of first rewards period)  // TODO
+	10633132, // 2020-08-10T11:59:04 ET (End of first rewards period)
 	// 2020-08-24T12:00:00 ET (End of second rewards period)
 	// 2020-08-31T12:00:00 ET (End of third rewards period)
 	// 2020-09-07T12:00:00 ET (End of fourth rewards period)
@@ -27,10 +27,10 @@ export const CAMPAIGN_BLOCKS = [
 
 // The distribution of awards per period
 const DECIMALS_OF_REWARDS = new BigNumber(18);
-export const REWARDS_PER_PERIOD = new BigNumber(400000);
-export const BIG_NUMBER_REWARDS = REWARDS_PER_PERIOD.multipliedBy(
-	new BigNumber(10).exponentiatedBy(DECIMALS_OF_REWARDS)
-);
+export const REWARDS_PER_PERIOD = 400000;
+export const BIG_NUMBER_REWARDS = new BigNumber(
+	REWARDS_PER_PERIOD
+).multipliedBy(new BigNumber(10).exponentiatedBy(DECIMALS_OF_REWARDS));
 
 /**
  * Each index represents a period that an LP provides liquidity and the multiplier. 

@@ -1,7 +1,11 @@
-import fs from 'fs';
+import BigNumber from 'bignumber.js';
+import moment from 'moment';
+import ERC20Manager, { AccountBalances } from './ERC20Manager';
+import { writeJSONToFile } from './lib/fileHandler';
+import { getBigNums, BigNums } from './utils/web3';
 import {
 	CAMPAIGN_BLOCKS,
-	REWARDS_ADDRESS,
+	REWARDS_PER_PERIOD,
 	BIG_NUMBER_REWARDS,
 	MIN_BALANCE,
 	WEIGHT_MULTIPLIER,
@@ -10,17 +14,12 @@ import {
 	POOL_START_BLOCK,
 	EXCLUDED_ADDRESSS,
 } from './constants';
-import ERC20Manager, { AccountBalances } from './ERC20Manager';
-
-import { writeJSONToFile } from './lib/fileHandler';
-import BigNumber from 'bignumber.js';
-
-import { getBigNums, BigNums } from './utils/web3';
 
 interface PeriodStatus {
 	date: Date;
 	startingBlock: number;
 	endingBlock: number;
+	totalRewards: number;
 	rewards: {
 		[key: string]: {
 			endingBalance: BigNums;
@@ -49,7 +48,10 @@ export default class Campaign {
 	 * to be eligible for rewards. By this definition, the minimum amount of liquidity 
 	 * provided per period counts towards the weight of rewards.
 	 */
-	public runCampaign = async () => {
+	public runCampaign = async (): Promise<{
+		periodStatus: PeriodStatus;
+		transferDict: AccountBalances;
+	}> => {
 		try {
 			const campaignStartBlock = CAMPAIGN_BLOCKS[0];
 			if (typeof campaignStartBlock === 'string') {
@@ -70,8 +72,12 @@ export default class Campaign {
 				getBigNums(BIG_NUMBER_REWARDS)
 			);
 
-			// FIXME:
-			await writeJSONToFile('outputs/periodStatus.json', finalPeriodStatus);
+			await writeJSONToFile(
+				`results/${moment().format('YYYY-MM-DD')}.json`,
+				finalPeriodStatus
+			);
+
+			return finalPeriodStatus;
 		} catch (e) {
 			throw new Error(e);
 		}
@@ -146,6 +152,7 @@ export default class Campaign {
 			// Here we are only creating a status for the latest rewards/last period
 			startingBlock: campaignBlocks[campaignBlocks.length - 2],
 			endingBlock: campaignBlocks[campaignBlocks.length - 1],
+			totalRewards: REWARDS_PER_PERIOD,
 			rewards: {},
 		};
 
@@ -287,11 +294,18 @@ export default class Campaign {
 			);
 		}
 
+		// console.dir(rewardsWeight);
+
 		// Weights are zero if less than than required liquidity is provided
 		const eligibleRewards = rewardsWeight.reduce(
-			(accumulator: BigNums, currentValue: BigNums, index): BigNums => {
+			(
+				accumulator: BigNums,
+				currentValue: BigNums,
+				currentIndex: number,
+				array
+			): BigNums => {
 				// NOTE: the zero index is liquidity that has not been in for a full period
-				if (index === 0) {
+				if (currentIndex === 0) {
 					return accumulator;
 				}
 
@@ -299,7 +313,8 @@ export default class Campaign {
 					accumulator.BigNumber.plus(currentValue.BigNumber),
 					this.erc20Manager.decimals.toNumber()
 				);
-			}
+			},
+			getBigNums(new BigNumber(0), 0)
 		);
 
 		// Filter out NON community addresses and an balances that are insufficient
@@ -314,25 +329,35 @@ export default class Campaign {
 		}
 
 		return rewardsWeight.reduce(
-			(accumulator: BigNums, currentValue: BigNums, index): BigNums => {
-				const multiplier: BigNumber = new BigNumber(multipliers[index]);
+			(
+				accumulator: BigNums,
+				currentValue: BigNums,
+				currentIndex,
+				array
+			): BigNums => {
+				const multiplier: BigNumber = new BigNumber(multipliers[currentIndex]);
 
 				let newWeight = accumulator.BigNumber.plus(
 					currentValue.BigNumber.times(multiplier)
 				);
 
 				return getBigNums(newWeight, this.erc20Manager.decimals.toNumber());
-			}
+			},
+			getBigNums(new BigNumber(0), 0)
 		);
 	};
 
 	// Once all the weights have been determined then this can go through and calculate the
 	// rewards in the base token
 	private calculateRewardsBasedOnWeight = (
-		status: PeriodStatus,
+		periodStatus: PeriodStatus,
 		rewardsPerPeriod: BigNums
-	): PeriodStatus => {
-		let rewards = status.rewards;
+	): {
+		periodStatus: PeriodStatus;
+		transferDict: AccountBalances;
+	} => {
+		let rewards = periodStatus.rewards;
+		let transferDict: AccountBalances = {};
 
 		let totalWeight = new BigNumber(0);
 		// Loop through each account and sum the weights
@@ -345,14 +370,17 @@ export default class Campaign {
 		// Loop through each account and calculate the rewards
 		for (const account in rewards) {
 			if (Object.prototype.hasOwnProperty.call(rewards, account)) {
-				let rewardAmount = rewards[account].totalWeight.BigNumber
+				const rewardAmount = rewards[account].totalWeight.BigNumber
 					.multipliedBy(rewardsPerPeriod.BigNumber)
 					.dividedBy(totalWeight);
 
-				rewards[account].rewards = getBigNums(rewardAmount);
+				const rewardsBigNums = getBigNums(rewardAmount);
+
+				rewards[account].rewards = rewardsBigNums;
+				transferDict[account] = rewardsBigNums;
 			}
 		}
 
-		return status;
+		return { periodStatus, transferDict };
 	};
 }

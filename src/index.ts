@@ -3,11 +3,12 @@ import clear from 'clear';
 import figlet from 'figlet';
 
 import Campaign from './Campaign';
+import { getBlockTime } from './getBlockByTime';
 
 clear();
 
 console.log(
-	chalk.blue(
+	chalk.greenBright(
 		figlet.textSync('SUKU', {
 			font: '3-D',
 			horizontalLayout: 'full',
