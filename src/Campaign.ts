@@ -23,6 +23,10 @@ import {
 	PERIOD_BLOCKS,
 } from './constants';
 
+interface RewardsBalance extends BigNums {
+	multiplier: number;
+}
+
 interface PeriodStatus {
 	date: Date;
 	startingBlock: number;
@@ -31,7 +35,7 @@ interface PeriodStatus {
 	rewards: {
 		[key: string]: {
 			endingBalance: BigNums;
-			rewardsBalances: BigNums[];
+			rewardsBalances: RewardsBalance[];
 			totalWeight: BigNums;
 			rewards: BigNums;
 		};
@@ -237,7 +241,8 @@ export default class Campaign {
 				 */
 				periodStatus.rewards[account] = {
 					endingBalance: accountBalance,
-					rewardsBalances: [ accountBalance ],
+					// The first balance has zero weight until it is held for an entire period.
+					rewardsBalances: [ { ...accountBalance, multiplier: 0 } ],
 					totalWeight: getBigNums(
 						new BigNumber(0),
 						this.erc20Manager.decimals.toNumber()
@@ -285,11 +290,9 @@ export default class Campaign {
 					// Get reward balance for this account
 					const accRewardsBalance: BigNums = rewardsPeriodBalances[account];
 					// Get rewards multiplier array for this account
-					let rewardsBalances: BigNums[] =
-						periodStatus.rewards[account].rewardsBalances;
+					let rewardsBalances = periodStatus.rewards[account].rewardsBalances;
 					// Get last periods rewards balance from multiplier array
-					const latestRewardBalance: BigNums =
-						rewardsBalances[rewardsBalances.length - 1];
+					const newRewardBalance = rewardsBalances[rewardsBalances.length - 1];
 
 					/**
 					 * Calculate the latest multiplier
@@ -300,27 +303,43 @@ export default class Campaign {
 					 */
 					if (
 						// if the latest rewards are greater than the next period rewards then only the latest rewards count
-						accRewardsBalance.BigNumber.gt(latestRewardBalance.BigNumber)
+						accRewardsBalance.BigNumber.gt(newRewardBalance.BigNumber)
 					) {
-						const newRewardsMultiplier = getBigNums(
-							latestRewardBalance.BigNumber.minus(
-								latestRewardBalance.BigNumber
-							),
-							this.erc20Manager.decimals.toNumber()
-						);
 						// remove the last element to update it
-						rewardsBalances.pop();
-						rewardsBalances.push(newRewardsMultiplier, latestRewardBalance);
+						const latestRewardsBalance = rewardsBalances.pop() as RewardsBalance;
+						// Promote the current rewards to a higher weight
+						rewardsBalances.push(
+							{
+								BigNumber: new BigNumber(0),
+								decimal: '0',
+								multiplier: latestRewardsBalance.multiplier,
+							},
+							{
+								...newRewardBalance,
+								multiplier: WEIGHT_MULTIPLIER[rewardsPeriod + 1],
+							}
+						);
 
-						periodStatus.rewards[account].rewardsBalances = rewardsBalances;
+						periodStatus.rewards[account].rewardsBalances = {
+							...rewardsBalances,
+						};
 					} else {
-						const newRewardsMultiplier = getBigNums(
-							latestRewardBalance.BigNumber.minus(accRewardsBalance.BigNumber),
+						const previousRewardBalance = getBigNums(
+							newRewardBalance.BigNumber.minus(accRewardsBalance.BigNumber),
 							this.erc20Manager.decimals.toNumber()
 						);
 						// remove the last element to update it
-						rewardsBalances.pop();
-						rewardsBalances.push(newRewardsMultiplier, accRewardsBalance);
+						const latestRewardsBalance = rewardsBalances.pop() as RewardsBalance;
+						rewardsBalances.push(
+							{
+								...previousRewardBalance,
+								multiplier: latestRewardsBalance.multiplier,
+							},
+							{
+								...accRewardsBalance,
+								multiplier: WEIGHT_MULTIPLIER[rewardsPeriod + 1],
+							}
+						);
 
 						periodStatus.rewards[account].rewardsBalances = rewardsBalances;
 					}
