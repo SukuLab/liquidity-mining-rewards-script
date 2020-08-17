@@ -1,10 +1,15 @@
 import BigNumber from 'bignumber.js';
 import moment from 'moment';
 import ERC20Manager, { AccountBalances } from './ERC20Manager';
-import { writeJSONToFile, writeMarkdownTableToFile } from './lib/fileHandler';
-import { getBigNums, BigNums } from './utils/web3';
 import {
-	CAMPAIGN_BLOCKS,
+	writeJSONToFile,
+	writeMarkdownTableToFile,
+	writeArrayToCSV,
+	readJSONFile,
+} from './lib/fileHandler';
+import { getBigNums, BigNums } from './utils/web3';
+import { formatNumber } from './utils';
+import {
 	REWARDS_PER_PERIOD,
 	BIG_NUMBER_REWARDS,
 	MIN_BALANCE,
@@ -14,6 +19,8 @@ import {
 	POOL_START_BLOCK,
 	EXCLUDED_ADDRESSS,
 	CURRENT_PRICE,
+	CURRENT_POOL_TOKEN_VAlUE,
+	PERIOD_BLOCKS,
 } from './constants';
 
 interface PeriodStatus {
@@ -54,49 +61,90 @@ export default class Campaign {
 		transferDict: AccountBalances;
 	}> => {
 		try {
-			const campaignStartBlock = CAMPAIGN_BLOCKS[0];
+			const campaignStartBlock = PERIOD_BLOCKS[0][0];
 			if (typeof campaignStartBlock === 'string') {
 				throw new Error('blocks as strings are not supported');
 			}
 
-			const balancesPerPeriod = await this.getBalancesPerPeriod(
-				CAMPAIGN_BLOCKS
-			);
+			const balancesPerPeriod = await this.getBalancesPerPeriod(PERIOD_BLOCKS);
 
-			const initialPeriodStatus = await this.getPeriodStatus(
+			const periodStatus = await this.getPeriodStatus(
 				balancesPerPeriod,
-				CAMPAIGN_BLOCKS
+				PERIOD_BLOCKS[PERIOD_BLOCKS.length - 1]
 			);
 
-			const finalPeriodStatus = await this.calculateRewardsBasedOnWeight(
-				initialPeriodStatus,
+			const rewardsCalculation = await this.calculateRewardsBasedOnWeight(
+				periodStatus,
 				getBigNums(BIG_NUMBER_REWARDS)
 			);
 
-			// TODO: Update date dir
 			await writeJSONToFile(
-				`results/2020-08-10/full-details-${moment().format('YYYY-MM-DD')}.json`,
-				finalPeriodStatus
+				`results/full-details-${moment().format('YYYY-MM-DD')}.json`,
+				rewardsCalculation.periodStatus
+			);
+
+			const transferCSV = this.createTransferCSVArray(
+				rewardsCalculation.periodStatus
+			);
+
+			await writeArrayToCSV(
+				`results/transfers-${moment().format('YYYY-MM-DD')}.csv`,
+				transferCSV
 			);
 
 			const rewardsTable = this.createRewardsTable(
-				finalPeriodStatus.periodStatus
+				rewardsCalculation.periodStatus
 			);
 
-			// TODO: Update date dir
-			await writeMarkdownTableToFile(
-				`results/2020-08-10/leaderboard-${moment().format('YYYY-MM-DD')}.md`,
+			await writeJSONToFile(
+				`results/leaderboard-${moment().format('YYYY-MM-DD')}.json`,
 				rewardsTable
 			);
 
-			return finalPeriodStatus;
+			await writeMarkdownTableToFile(
+				`results/leaderboard-${moment().format('YYYY-MM-DD')}.md`,
+				rewardsTable
+			);
+
+			return rewardsCalculation;
 		} catch (e) {
 			throw new Error(e);
 		}
 	};
 
+	public async getPeriodStatusFromFile(
+		filePath: string
+	): Promise<PeriodStatus> {
+		let periodStatus: PeriodStatus = (await readJSONFile(filePath)) as any;
+		let rewards = periodStatus.rewards;
+
+		// Convert all BigNumber strings to BigNumber Objects
+		for (const account in rewards) {
+			if (Object.prototype.hasOwnProperty.call(rewards, account)) {
+				const acc = rewards[account];
+				acc.endingBalance.BigNumber = new BigNumber(
+					acc.endingBalance.BigNumber
+				);
+				acc.totalWeight.BigNumber = new BigNumber(acc.totalWeight.BigNumber);
+				acc.rewards.BigNumber = new BigNumber(acc.rewards.BigNumber);
+				for (let i = 0; i < acc.rewardsBalances.length; i++) {
+					const balance = acc.rewardsBalances[i].BigNumber;
+					acc.rewardsBalances[i].BigNumber = new BigNumber(balance);
+				}
+			}
+		}
+
+		return periodStatus;
+	}
+
+	/**
+	 * Iterates through an array of blocknumbers and find the eligible balances 
+	 * between each period
+	 * 
+	 * @param campaignBlocks
+	 */
 	private getBalancesPerPeriod = async (
-		campaignBlocks: number[]
+		campaignBlocks: [number, number][]
 	): Promise<
 		{
 			accountBalances: AccountBalances;
@@ -105,11 +153,10 @@ export default class Campaign {
 	> => {
 		try {
 			const campaignStartingBalances = await this.erc20Manager.getAllBalancesAtBlock(
-				campaignBlocks[0]
+				// get the very first block
+				campaignBlocks[0][0]
 			);
 
-			// Includes starting balances
-			let interPeriodBalances = [ campaignStartingBalances ];
 			// End of period rewards
 			let endOfPeriodsBalances: {
 				accountBalances: AccountBalances;
@@ -117,29 +164,24 @@ export default class Campaign {
 			}[] = [];
 
 			// Start comparing balances per week
-			for (let period = 1; period < campaignBlocks.length; period++) {
-				console.log(`Running balance calucations for period: ${period}`);
-
-				const transferDiff = await this.erc20Manager.getTransferDiff(
-					interPeriodBalances[period - 1], // Start with the balances from the previous period / start
-					campaignBlocks[period - 1] + 1, // Adding one to the previous block to prevent double counting
-					campaignBlocks[period] // Count the end block of this period
+			for (let period = 0; period < campaignBlocks.length; period++) {
+				const initalPeriodBalance = await this.erc20Manager.getAllBalancesAtBlock(
+					// get the very first block
+					campaignBlocks[period][0]
 				);
 
-				// Keep track of balances between each period
-				interPeriodBalances.push(transferDiff.endBalanceDiff);
+				const transferDiff = await this.erc20Manager.getTransferDiff(
+					initalPeriodBalance, // Start with the balances from the previous period / start
+					campaignBlocks[period][0], // Adding one to the previous block to prevent double counting
+					campaignBlocks[period][1] // Count the end block of this period
+				);
+
 				// Keep track of eligible liquidity.
 				endOfPeriodsBalances.push({
 					accountBalances: transferDiff.endBalanceDiff,
 					// This is the balance that is eligible for rewards
 					rewardBalances: transferDiff.minBalanceDiff,
 				});
-
-				console.table(transferDiff.minBalanceDiff);
-				// await writeJSONToFile(
-				// 	`results/campaign-period-${period}.json`,
-				// 	endOfPeriodsBalances[period - 1].rewardBalances
-				// );
 			}
 
 			return endOfPeriodsBalances;
@@ -148,20 +190,26 @@ export default class Campaign {
 		}
 	};
 
+	/**
+	 * 
+	 * 
+	 * @param balancesPerPeriod 
+	 * @param campaignBlocks 
+	 */
 	private getPeriodStatus = async (
 		balancesPerPeriod: {
 			accountBalances: AccountBalances;
 			rewardBalances: AccountBalances;
 		}[],
-		campaignBlocks: number[]
+		campaignBlocks: [number, number]
 	): Promise<PeriodStatus> => {
 		// Create object to hold final output for this period
 		let periodStatus: PeriodStatus = {
 			// Add in starting blocks
 			date: new Date(),
 			// Here we are only creating a status for the latest rewards/last period
-			startingBlock: campaignBlocks[campaignBlocks.length - 2],
-			endingBlock: campaignBlocks[campaignBlocks.length - 1],
+			startingBlock: campaignBlocks[0],
+			endingBlock: campaignBlocks[1],
 			totalRewards: REWARDS_PER_PERIOD,
 			rewards: {},
 		};
@@ -221,6 +269,7 @@ export default class Campaign {
 			if (rewardsIdx < 0) {
 				break;
 			}
+
 			const rewardsPeriodBalances =
 				balancesPerPeriod[rewardsIdx].rewardBalances;
 			// iterate through all accounts with rewardsBalances for this period
@@ -394,10 +443,6 @@ export default class Campaign {
 			}
 		}
 
-		console.log(
-			`calculateRewardsBasedOnWeight- total rewards of: ${totalRewards} vs alloted reards of: ${rewardsPerPeriod.BigNumber}`
-		);
-
 		return { periodStatus, transferDict };
 	};
 
@@ -406,8 +451,46 @@ export default class Campaign {
 			'Account',
 			'SUKU Rewards',
 			`USD Rewards @$${CURRENT_PRICE}`,
+			`Estimated Liquidity`,
 		];
-		let table: [string, string, string][] = [];
+		let table: [string, string, string, string, number][] = [];
+		const accountRewards = periodStatus.rewards;
+		for (const account in accountRewards) {
+			if (Object.prototype.hasOwnProperty.call(accountRewards, account)) {
+				const accountDetails = accountRewards[account];
+				const accountRewardsDecimal = Number(accountDetails.rewards.decimal);
+				const accountBalanceDecimal = Number(
+					accountDetails.endingBalance.decimal
+				);
+				// Remove zero balance clutter
+				if (accountRewardsDecimal === 0) {
+					continue;
+				}
+				table.push([
+					account,
+					formatNumber(accountRewardsDecimal),
+					'$' + formatNumber(accountRewardsDecimal * CURRENT_PRICE),
+					'$' + formatNumber(accountBalanceDecimal * CURRENT_POOL_TOKEN_VAlUE),
+					accountRewardsDecimal,
+				]);
+			}
+		}
+
+		table.sort((accountA, accountB) => {
+			return Number(accountA[4]) > Number(accountB[4]) ? -1 : 1;
+		});
+
+		// Remove the sorting value
+		table.map((row) => {
+			row.pop();
+			return row;
+		});
+
+		return [ tableHeader, ...table ];
+	};
+
+	private createTransferCSVArray = (periodStatus: PeriodStatus): any[][] => {
+		let csvArray: [string, string][] = [];
 		const accountRewards = periodStatus.rewards;
 		for (const account in accountRewards) {
 			if (Object.prototype.hasOwnProperty.call(accountRewards, account)) {
@@ -417,18 +500,10 @@ export default class Campaign {
 				if (accountRewardsDecimal === 0) {
 					continue;
 				}
-				table.push([
-					account,
-					accountRewardsDecimal.toFixed(2),
-					'$' + (accountRewardsDecimal * CURRENT_PRICE).toFixed(2),
-				]);
+				csvArray.push([ account, accountRewardsDecimal.toFixed(18) ]);
 			}
 		}
 
-		table.sort((accountA, accountB) => {
-			return Number(accountA[1]) > Number(accountB[1]) ? -1 : 1;
-		});
-
-		return [ tableHeader, ...table ];
+		return csvArray;
 	};
 }

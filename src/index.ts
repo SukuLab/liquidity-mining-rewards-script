@@ -5,8 +5,8 @@ import figlet from 'figlet';
 
 import Campaign from './Campaign';
 
+// Display Header
 clear();
-
 console.log(
 	chalk.greenBright(
 		figlet.textSync('SUKU', {
