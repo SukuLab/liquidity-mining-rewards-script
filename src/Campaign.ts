@@ -320,9 +320,7 @@ export default class Campaign {
 							}
 						);
 
-						periodStatus.rewards[account].rewardsBalances = {
-							...rewardsBalances,
-						};
+						periodStatus.rewards[account].rewardsBalances = rewardsBalances;
 					} else {
 						const previousRewardBalance = getBigNums(
 							newRewardBalance.BigNumber.minus(accRewardsBalance.BigNumber),

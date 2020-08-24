@@ -3,6 +3,7 @@ import BigNumber from 'bignumber.js';
 export const PROVIDER =
 	process.env.PROVIDER || 'wss://mainnet.infura.io/ws/v3/';
 // Block start of pool (reduces the blocks to query for events)
+
 export const POOL_START_BLOCK = 10590454;
 // Address of the liquidity pool
 export const POOL_ADDRESS = '0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905';
@@ -11,7 +12,7 @@ export const POOL_ADDRESS = '0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905';
 export const BLOCK_GAP = 3000;
 
 // NOTE: Update before running
-export const CURRENT_PRICE = 0.3;
+export const CURRENT_PRICE = 0.24;
 /**
  * Total Liquidity: https://uniswap.info/pair/0xfc74ecdee4e9fff2f2ef4cdf4f1c777b2ef0e905
  *   divided by
@@ -19,7 +20,7 @@ export const CURRENT_PRICE = 0.3;
  */
 
 // NOTE: Update before running
-export const CURRENT_POOL_TOKEN_VAlUE = 22.9;
+export const CURRENT_POOL_TOKEN_VAlUE = 19.82;
 
 /**
  * These blocks represent the start and end of each period
@@ -33,8 +34,10 @@ export const PERIOD_BLOCKS: [number, number][] = [
 		10646086, // 2020-08-12T11:59:57 Eastern Time (Start of second rewards period)
 		10678484, // 2020-08-17T11:59:00 Eastern Time (End of second rewards period)
 	],
-	// 2020-08-24T12:00:00 ET (End of second rewards period)
-	// 2020-08-31T12:00:00 ET (End of third rewards period)
+	[
+		10691496, // 2020-08-19T12:00:10 Eastern Time (Start of third rewards period)
+		10724062, // 2020-08-17T11:59:54 Eastern Time (End of third rewards period)
+	],
 	// 2020-09-07T12:00:00 ET (End of fourth rewards period)
 	// 2020-09-14T12:00:00 ET (End of fifth rewards period)
 	// 2020-09-21T12:00:00 ET (End of sixth rewards period)
