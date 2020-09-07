@@ -12,7 +12,7 @@ export const POOL_ADDRESS = '0xFc74eCDEe4e9ffF2f2ef4cdf4F1c777b2EF0e905';
 export const BLOCK_GAP = 3000;
 
 // NOTE: Update before running
-export const CURRENT_PRICE = 0.24; // Updated: 2020/08/31
+export const CURRENT_PRICE = 0.21; // Updated: 2020/08/31
 /**
  * Total Liquidity: https://uniswap.info/pair/0xfc74ecdee4e9fff2f2ef4cdf4f1c777b2ef0e905
  *   divided by
@@ -20,7 +20,7 @@ export const CURRENT_PRICE = 0.24; // Updated: 2020/08/31
  */
 
 // NOTE: Update before running
-export const CURRENT_POOL_TOKEN_VAlUE = 20.86; // Updated: 2020/08/31
+export const CURRENT_POOL_TOKEN_VAlUE = 16.7; // Updated: 2020/08/31
 
 /**
  * These blocks represent the start and end of each period
@@ -42,7 +42,10 @@ export const PERIOD_BLOCKS: [number, number][] = [
 		10737056, // 2020-08-26T12:00:13 Eastern Time (Start of fourth rewards period)
 		10769638, // 2020-08-31T12:00:04 Eastern Time (End of fourth rewards period)
 	],
-	// 2020-09-14T12:00:00 ET (End of fifth rewards period)
+	[
+		10782773, // 2020-09-02T12:00:18 Eastern Time (Start of fifth rewards period)
+		10815485, // 2020-09-07T11:59:53 Eastern Time (End of fifth rewards period)
+	],
 	// 2020-09-21T12:00:00 ET (End of sixth rewards period)
 	// 2020-09-28T12:00:00 ET (End of seventh rewards period)
 	// 2020-10-05T12:00:00 ET (End of Campaign)
