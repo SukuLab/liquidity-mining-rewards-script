@@ -3,6 +3,7 @@
     "startingBlock": 10737056,
     "endingBlock": 10769638,
     "totalRewards": 400000,
+    "txHash": "https://etherscan.io/tx/0xfb973fc6abd32357d469e3eced129ec87bc316aa66176bc105bb3c154e1fbb15",
     "rewards": {
         "0x9b4823a4C0e28b05c2EfA898c20C36404c089789": {
             "endingBalance": {
